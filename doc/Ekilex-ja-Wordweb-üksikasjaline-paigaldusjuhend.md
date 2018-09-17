@@ -188,19 +188,19 @@ sudo -u postgres createuser ekilex
 // $ sudo -u postgres psql  
 // psql=# alter user <username> with encrypted password '<password>';  
 
-$ sudo -u postgres psql
+$ sudo -u postgres psql  
 psql=# alter user ekilex with encrypted password 'ekilexDbPass';
 
 sudo -u postgres createdb --encoding=UTF8 --locale=et_EE.UTF-8 --owner=ekilex --template=template0 ekilex
 
 sudo -u postgres createuser wordweb  
 $ sudo -u postgres psql  
-psql=# alter user wordweb with encrypted password 'wordwebDbPass';
+psql=# alter user wordweb with encrypted password 'wordwebDbPass';  
 
 sudo -u postgres createdb --encoding=UTF8 --locale=et_EE.UTF-8 --owner=wordweb --template=template0 wordweb
 
-Check:
-sudo -u postgres psql -l
+Check:  
+sudo -u postgres psql -l  
 
 
 #### Andmebaasile juurdepääsu seadistamine 
@@ -239,7 +239,7 @@ nano /var/lib/pgsql/9.6/data/postgresql.conf
 listen_addresses = '*'
 ```
 
-Seadete jõustamiseks:
+Seadete jõustamiseks:  
 sudo systemctl restart postgresql-9.6
 
 <!--
@@ -271,24 +271,24 @@ https://blog.bigbinary.com/2016/01/23/configure-postgresql-to-allow-remote-conne
 
 ### Tarkvaraprojekt Ekileks (lähtekoodi paigaldamine)
 
-sudo mkdir /apps
-cd /apps
-sudo chown kasutaja .
-mkdir source
-cd source/
+sudo mkdir /apps  
+cd /apps  
+sudo chown kasutaja .  
+mkdir source  
+cd source/  
 
 git clone https://github.com/tripledev/ekilex.git
 
-cd ekilex
+cd ekilex  
 
-git fetch
-git branch -a
+git fetch  
+git branch -a  
 
-///uus ver
-git checkout 1.1.0
+///uus ver  
+git checkout 1.1.0  
 
 
-///Tekitada kataloogid:
+///Tekitada kataloogid:  
 
 mkdir data
 mkdir data/files
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE3MzkyNTgsLTE0ODA2NjU0NjYsMT
-c2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcy
-Nzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mj
-c1NSw1MzgxOTk1MjZdfQ==
+eyJoaXN0b3J5IjpbMTg2MDUzMjg3MCwtMTQ4MDY2NTQ2NiwxNz
+YxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3
+ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNz
+U1LDUzODE5OTUyNl19
 -->
