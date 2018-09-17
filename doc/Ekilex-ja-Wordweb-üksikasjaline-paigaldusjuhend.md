@@ -323,14 +323,18 @@ file.repository.path=/apps/data/files/
 nano /apps/source/ekilex/ekilex-etl/envresources/prod/ultima-loader.properties
 ```
 mab.data.file=/apps/data/dicts/mab.xml
+ss1.data.file=/apps/data/dicts/ss1.xml
+ss1.map.file.1=
+ss1.map.file.2=
+psv.data.file=/apps/data/dicts/psv.xml
+kol.data.file=/apps/data/dicts/kol.xml
 qq2.data.file=/apps/data/dicts/qq2.xml
+ev2.data.file.1=/apps/data/dicts/ev21.xml
+ev2.data.file.2=/apps/data/dicts/ev22.xml
 est.data.file=/apps/data/dicts/esterm.xml
 termeki.data.file=/apps/data/dicts/termeki-databases.csv
-psv.data.file=/apps/data/dicts/psv.xml
-psv.map.file=/apps/data/dicts/psv_qqv_yhene.dat
-ss1.data.file=/apps/data/dicts/ss1.xml
-kol.data.file=/apps/data/dicts/kol.xml
 doreports=false
+
 ```
 
 #### Sõnakogude laadimine
@@ -698,9 +702,9 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2Mz
-A1MTAxNzcsOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3NjE2MTA4
-MTEsLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0NDg3Mjc4OTIsLT
-E3NjU0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3NjI3NTUsNTM4
-MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbMTMxNTY2MDQ1NiwtMTQwNjg2Mzk3LC01MT
+EyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0
+NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLD
+Q0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYy
+NTc2Mjc1NSw1MzgxOTk1MjZdfQ==
 -->
