@@ -660,7 +660,7 @@ https://www.nginx.com/resources/wiki/start/topics/examples/likeapache/
 
 https://github.com/yaoweibin/nginx_ajp_module
 
-HTTP protokolliga
+HTTP protokolliga:
 ```
 server {
     listen       väline-IP:80;
@@ -695,7 +695,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTMwNjI4Miw0NDg3Mjc4OTIsLTE3Nj
-U0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3NjI3NTUsNTM4MTk5
-NTI2XX0=
+eyJoaXN0b3J5IjpbLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0ND
+g3Mjc4OTIsLTE3NjU0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3
+NjI3NTUsNTM4MTk5NTI2XX0=
 -->
