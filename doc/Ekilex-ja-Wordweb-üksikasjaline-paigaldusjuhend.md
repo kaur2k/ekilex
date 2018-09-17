@@ -572,7 +572,13 @@ mkdir /apps/deploy/ekilex
 cp /apps/source/ekilex/ekilex-app/target/ekilex-app.jar /apps/deploy/ekilex  
 chmod 755 /apps/deploy/ekilex/ekilex-app.jar
 ```
-Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.
+Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.  
+
+nano /apps/deploy/ekilex/ekilex-app.conf
+```
+JAVA_OPTS=-Xmx4096M
+RUN_ARGS=--spring.profiles.active=prod
+```
 
 sudo bash
 nano /etc/systemd/system/ekilex.service
@@ -591,11 +597,7 @@ SuccessExitStatus=143
 WantedBy=multi-user.target
 ```
 
-nano /apps/deploy/ekilex/ekilex-app.conf
-```
-JAVA_OPTS=-Xmx4096M
-RUN_ARGS=--spring.profiles.active=prod
-```
+
 
 systemctl enable ekilex  
 Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.  
@@ -693,11 +695,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg5OTMwNzAsMTc0ODU3MTY1NywxMD
-kwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEz
-OTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMT
-ksLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEz
-MDY0NjY1LC0xNDgwNjY1NDY2LDE3NjE2MTA4MTEsLTE4NjIyOT
-M5MDIsMTkyMTMwNjI4Miw0NDg3Mjc4OTIsLTE3NjU0MjIxMjks
-LTE2MjIyMzYzMTldfQ==
+eyJoaXN0b3J5IjpbMTE4ODYzNTc2NiwtMjEyODk5MzA3MCwxNz
+Q4NTcxNjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkz
+NTM5LC0xNjExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxND
+ksLTExMjY5MTMxOSwtMTQwNjg2Mzk3LC01MTEyNTYwNTgsMTYz
+MDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMD
+gxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5Miwt
+MTc2NTQyMjEyOV19
 -->
