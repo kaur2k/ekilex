@@ -602,12 +602,12 @@ JAVA_OPTS=-Xmx4096M
 RUN_ARGS=--spring.profiles.active=prod
 ```
 
+systemctl enable ekilex  
+Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.  
+
 systemctl start ekilex  
 systemctl restart ekilex  
 systemctl stop ekilex  
-
-systemctl enable ekilex  
-Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.  
 
 systemctl start ekilex  
 systemctl status ekilex  
@@ -697,7 +697,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM2OTA2NTUsMTYzMDUxMDE3Nyw5MT
+eyJoaXN0b3J5IjpbLTExMDMwODUyMzUsMTYzMDUxMDE3Nyw5MT
 MwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5
 MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOS
 wtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
