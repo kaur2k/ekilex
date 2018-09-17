@@ -90,9 +90,9 @@ tar xzf jdk-8-linux-x64.tar.gz
 
 $ yum install chkconfig
 
-cd /opt/jdk1.8.0_171/
-alternatives --install /usr/bin/java java /opt/jdk1.8.0_171/bin/java 2
-alternatives --config java
+cd /opt/jdk1.8.0_171/  
+alternatives --install /usr/bin/java java /opt/jdk1.8.0_171/bin/java 2  
+alternatives --config java  
 
 nano /etc/profile.d/javaenv.sh
 ```
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMT
-g2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQy
-MjEyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1Mj
-ZdfQ==
+eyJoaXN0b3J5IjpbLTcyNjQxMjkyMiwtMTQ4MDY2NTQ2NiwxNz
+YxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3
+ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNz
+U1LDUzODE5OTUyNl19
 -->
