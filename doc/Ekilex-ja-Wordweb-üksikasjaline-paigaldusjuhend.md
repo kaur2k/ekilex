@@ -544,6 +544,7 @@ CREATE EXTENSION dblink;
 SELECT dblink_connect('host=ekilex-IP user=ekilex password=ekilexDbPass dbname=ekilex');  
 
 ##### Materjaliseeritud vaadete loomine
+Kõigepealt modifitseerin create_mviews.sql skripti, siis käivitan selle.
 ```
 sed -i -e 's/password=3kil3x/password=ekilexDbPass/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 sed -i -e 's/host=localhost/host=ekilex-IP/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
@@ -699,9 +700,9 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ0MzA1NDEsLTExMjY5MTMxOSwtMT
-QwNjg2Mzk3LC01MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2
-NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMi
-wxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYy
-MjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
+eyJoaXN0b3J5IjpbMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xND
+A2ODYzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2
+NSwtMTQ4MDY2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLD
+E5MjEzMDYyODIsNDQ4NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIy
+MjM2MzE5LC0xNjI1NzYyNzU1LDUzODE5OTUyNl19
 -->
