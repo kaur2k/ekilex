@@ -273,7 +273,7 @@ https://blog.bigbinary.com/2016/01/23/configure-postgresql-to-allow-remote-conne
 
 sudo mkdir /apps  
 cd /apps  
-sudo chown kasutaja .  
+sudo chown *kasutaja* .  
 mkdir source  
 cd source/  
 
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTc0MTY5LDkxMzA2NDY2NSwtMTQ4MD
-Y2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYy
-ODIsNDQ4NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC
-0xNjI1NzYyNzU1LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0OD
+A2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2
+MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOS
+wtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
 -->
