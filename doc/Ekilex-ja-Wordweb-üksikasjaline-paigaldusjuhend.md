@@ -2,6 +2,14 @@
 
 
 # EKILEXi ja Sõnaveebi paigaldusjuhend
+Juhendis tuleks asendada/välja mõelda/küsida järgnevad sõned:
+
+ekilex-IP = 192.168.xxx.xxx (Ekilex masina sisevõrgu IP)  
+wordweb-IP = 192.168.yyy.yyy (Wordweb masina sisevõ)  
+ekilexDbPass = ????  
+wordwebDbPass = ?????  
+termEkiUser = ??????  
+termEkiPass = ???????  
 
 
 ## Enne paigaldust
@@ -703,11 +711,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMwMjE2OTEsMjA2ODk2MDIxNSwtMj
-EyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0Mzc4OTMsLTE5NDQ1
-NTUzNjksMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0yMDE4MzgwOT
-M5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwtMTQwNjg2Mzk3LC01
-MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2Nj
-U0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2Mjgy
-LDQ0ODcyNzg5Ml19
+eyJoaXN0b3J5IjpbMTQ3MDc2MjI3MiwyMDY4OTYwMjE1LC0yMT
+I4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1
+NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5Mz
+ksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUx
+MTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NT
+Q2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIs
+NDQ4NzI3ODkyXX0=
 -->
