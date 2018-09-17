@@ -653,14 +653,34 @@ Eraldi avaliku IP-ga masinas.
 https://www.linode.com/docs/web-servers/apache/install-and-configure-apache-on-centos-7/
 
 
-#### NGINX?
+#### NGINX
 
 https://www.nginx.com/resources/wiki/start/topics/examples/likeapache/
 https://github.com/yaoweibin/nginx_ajp_module
 
 
+    location /wordweb/ {
+        proxy_pass  http://192.168.99.79:5555/wordweb/;
+        # proxy_redirect http://192.168.99.79:5555/wordweb/ https://tb.eki.ee/wordweb/;
+        proxy_redirect http://  $scheme://;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+
+    ## at the moment only for /ekilex/ ##
+    location / {
+        proxy_pass  http://192.168.99.78:5555;
+        proxy_redirect http://  $scheme://;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjIyMzYzMTksLTE2MjU3NjI3NTUsNT
-M4MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbLTE3NjU0MjIxMjksLTE2MjIyMzYzMTksLT
+E2MjU3NjI3NTUsNTM4MTk5NTI2XX0=
 -->
