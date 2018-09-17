@@ -544,8 +544,8 @@ SELECT dblink_connect('host=ekilex-IP user=ekilex password=ekilexDbPass dbname=e
 
 ##### Materjaliseeritud vaadete loomine
 
-sed -i -e 's/password=3kil3x/password=ekilexDbPass/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql
-sed -i -e 's/host=localhost/host=ekilex-IP/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql
+sed -i -e 's/password=3kil3x/password=ekilexDbPass/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
+sed -i -e 's/host=localhost/host=ekilex-IP/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 sudo -u postgres psql -U wordweb -d wordweb -a -f /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql
 
 #### Ehitamine
@@ -697,8 +697,9 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0OD
-A2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2
-MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOS
-wtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTkyNDMyMzEsMTYzMDUxMDE3Nyw5MT
+MwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5
+MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOS
+wtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
+
 -->
