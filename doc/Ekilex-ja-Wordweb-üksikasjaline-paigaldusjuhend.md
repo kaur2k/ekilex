@@ -573,13 +573,13 @@ Maven pistaku vahendusel:
 
 Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!
 Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
-
+```
 mkdir /apps/deploy
 mkdir /apps/deploy/ekilex
 
 cp /apps/source/ekilex/ekilex-app/target/ekilex-app.jar /apps/deploy/ekilex  
 chmod 755 /apps/deploy/ekilex/ekilex-app.jar
-
+```
 Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.
 
 sudo bash
@@ -701,11 +701,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC0xNj
-ExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5
-MTMxOSwtMTQwNjg2Mzk3LC01MTEyNTYwNTgsMTYzMDUxMDE3Ny
-w5MTMwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2
-MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMj
-EyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZd
-fQ==
+eyJoaXN0b3J5IjpbMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMj
+A0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMTUzODQw
+NDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1NjA1OC
+wxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2NiwxNzYx
+NjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3OD
+kyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNzU1
+LDUzODE5OTUyNl19
 -->
