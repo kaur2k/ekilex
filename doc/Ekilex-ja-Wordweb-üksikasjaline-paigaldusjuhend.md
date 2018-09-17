@@ -522,7 +522,7 @@ firewall-cmd --reload
 
 //ei näikse toimivat...
 //kasutan siis samu porte, mis ekilex: 5555 ja 5557  
-TODO: Muuda ära ka eelmises peatükis ()
+TODO: Muuda ära ka eelmises peatükis (/apps/source/ekilex/wordweb-app/src/main/resources/application-prod.properties)
 
 #### Andmebaasi konfimine 
 
@@ -692,7 +692,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjE3MzgzOCwxMDkwNDM3ODkzLC0xOT
+eyJoaXN0b3J5IjpbMTAxOTM4ODYzMiwxMDkwNDM3ODkzLC0xOT
 Q0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4
 MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5Ny
 wtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0xNDgw
