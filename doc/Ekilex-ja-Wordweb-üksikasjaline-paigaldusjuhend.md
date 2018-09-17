@@ -344,7 +344,7 @@ doreports=false
 
 
 failid:  
-Kopeeri ekitest serverilt:  
+Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
 
 
@@ -702,7 +702,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTY2MDQ1NiwtMTQwNjg2Mzk3LC01MT
+eyJoaXN0b3J5IjpbLTExMjY5MTMxOSwtMTQwNjg2Mzk3LC01MT
 EyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0
 NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLD
 Q0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYy
