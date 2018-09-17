@@ -658,6 +658,8 @@ https://www.linode.com/docs/web-servers/apache/install-and-configure-apache-on-c
 
 https://www.nginx.com/resources/wiki/start/topics/examples/likeapache/
 
+Apache JServ Protocol (AJP)?:
+
 https://github.com/yaoweibin/nginx_ajp_module
 
 HTTP protokolliga:
@@ -695,7 +697,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0ND
-g3Mjc4OTIsLTE3NjU0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3
-NjI3NTUsNTM4MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOT
+IxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIz
+NjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
 -->
