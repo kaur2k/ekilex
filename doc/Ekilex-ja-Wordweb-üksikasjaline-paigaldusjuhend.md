@@ -658,6 +658,7 @@ https://www.linode.com/docs/web-servers/apache/install-and-configure-apache-on-c
 https://www.nginx.com/resources/wiki/start/topics/examples/likeapache/
 https://github.com/yaoweibin/nginx_ajp_module
 
+HTTP protokolliga
 ```
 server {
     listen       väline-IP:80;
@@ -692,6 +693,6 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzYzOTQzNywtMTc2NTQyMjEyOSwtMT
+eyJoaXN0b3J5IjpbLTIzMDEzMTQ4MiwtMTc2NTQyMjEyOSwtMT
 YyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
 -->
