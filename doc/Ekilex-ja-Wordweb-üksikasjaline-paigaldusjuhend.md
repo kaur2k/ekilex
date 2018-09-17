@@ -516,19 +516,13 @@ corpora.service.url=https://korp.keeleressursid.ee/cgi-bin/kuuskorp.cgi
 
 firewall-cmd --permanent --zone=public --add-port=5577/tcp  
 firewall-cmd --permanent --zone=public --add-port=5578/tcp  
-firewall-cmd --permanent --zone=external --add-port=5577/tcp
-firewall-cmd --permanent --zone=external --add-port=5578/tcp
-firewall-cmd --reload
+firewall-cmd --permanent --zone=external --add-port=5577/tcp  
+firewall-cmd --permanent --zone=external --add-port=5578/tcp  
+firewall-cmd --reload  
 
 //ei näikse toimivat...
-//kasutan siis samu porte, mis ekilex: 5555 ja 5557
-//java avab pordi ainult ipv6 peal?
-
-firewall-cmd --list-ports
-lsof -i -P
-lsof -i4 -P
-lsof -i6 -P
-
+//kasutan siis samu porte, mis ekilex: 5555 ja 5557  
+TODO: Muuda ära ka eelmises peatükis ()
 
 #### Andmebaasi konfimine 
 
@@ -698,7 +692,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjA0OTgxMiwxMDkwNDM3ODkzLC0xOT
+eyJoaXN0b3J5IjpbMTkwMjE3MzgzOCwxMDkwNDM3ODkzLC0xOT
 Q0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4
 MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5Ny
 wtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0xNDgw
