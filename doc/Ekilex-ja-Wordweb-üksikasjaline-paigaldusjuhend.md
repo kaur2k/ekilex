@@ -606,6 +606,7 @@ systemctl start ekilex
 //systemctl restart ekilex  
 //systemctl stop ekilex  
 
+------
 Kui ei hakka tööle...  
 systemctl start ekilex  
 systemctl status ekilex  
@@ -634,7 +635,7 @@ Sep 17 02:02:16 ekilex-test.tb.eki.ee systemd[1]: ekilex.service failed.
 	</configuration>
 </plugin>
 ```
-... ja ehita uuesti. Va
+... ja ehita uuesti. Vajalik on "fully executable jar". https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
 
 
 
@@ -701,11 +702,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDIzNTk1NjksLTIxMjg5OTMwNzAsMT
-c0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5
-MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MT
-Q5LC0xMTI2OTEzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2
-MzA1MTAxNzcsOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3NjE2MT
-A4MTEsLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0NDg3Mjc4OTIs
-LTE3NjU0MjIxMjldfQ==
+eyJoaXN0b3J5IjpbMTExODAxOTY1MSwtMjEyODk5MzA3MCwxNz
+Q4NTcxNjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkz
+NTM5LC0xNjExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxND
+ksLTExMjY5MTMxOSwtMTQwNjg2Mzk3LC01MTEyNTYwNTgsMTYz
+MDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMD
+gxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5Miwt
+MTc2NTQyMjEyOV19
 -->
