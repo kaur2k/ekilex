@@ -45,7 +45,7 @@ $ systemctl restart network.service
 
 ### SSH lubamine
 
-ma ei tea, mida ma tegin, et see tööle hakkas, aga muutsin
+ma ei mäleta, mida ma tegin, et see tööle hakkas, aga muutsin
 `nano /etc/ssh/sshd_config`
 seal oli peaaegu kõik kinni kommenteeritud
 
@@ -695,7 +695,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTE0ODM3OSw0NDg3Mjc4OTIsLTE3Nj
+eyJoaXN0b3J5IjpbMTkyMTMwNjI4Miw0NDg3Mjc4OTIsLTE3Nj
 U0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3NjI3NTUsNTM4MTk5
 NTI2XX0=
 -->
