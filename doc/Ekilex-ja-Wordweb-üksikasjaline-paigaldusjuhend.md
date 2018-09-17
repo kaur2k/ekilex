@@ -34,10 +34,10 @@ Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid ja hostname
 
 $ nmtui
 
-Tee läbi mõlemad menüü valikud:
-"Edit a connection"
-"Set system hostname"
-Välju UI-st
+Tee läbi mõlemad menüü valikud:  
+"Edit a connection"  
+"Set system hostname"  
+Välju UI-st  
 
 $ systemctl restart network.service
 
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3Nj
-E2MTA4MTEsLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0NDg3Mjc4
-OTIsLTE3NjU0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3NjI3NT
-UsNTM4MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbMTk5MDYwMTg1LDkxMzA2NDY2NSwtMTQ4MD
+Y2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYy
+ODIsNDQ4NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC
+0xNjI1NzYyNzU1LDUzODE5OTUyNl19
 -->
