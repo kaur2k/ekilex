@@ -577,7 +577,8 @@ Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
 mkdir /apps/deploy
 mkdir /apps/deploy/ekilex
 
-cp /apps/source/ekilex/ekilex-app/target/ekilex-app.jar /apps/deploy/ekilex
+cp /apps/source/ekilex/ekilex-app/target/ekilex-app.jar /apps/deploy/ekilex  
+chmod 755 /apps/deploy/ekilex/ekilex-app.jar
 
 Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.
 
@@ -700,10 +701,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0yMD
-E4MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwtMTQwNjg2
-Mzk3LC01MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLT
-E0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIx
-MzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNj
-MxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
+eyJoaXN0b3J5IjpbLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC0xNj
+ExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5
+MTMxOSwtMTQwNjg2Mzk3LC01MTEyNTYwNTgsMTYzMDUxMDE3Ny
+w5MTMwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2
+MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMj
+EyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZd
+fQ==
 -->
