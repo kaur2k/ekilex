@@ -170,7 +170,7 @@ Optionally initialize the database and enable automatic start:
 
 $ /usr/pgsql-9.6/bin/postgresql96-setup initdb
 
-$ systemctl enable postgresql-9.6
+$ systemctl enable postgresql-9.6  
 Created symlink from /etc/systemd/system/multi-user.target.wants/postgresql-9.6.service to /usr/lib/systemd/system/postgresql-9.6.service.
 
 $ systemctl start postgresql-9.6
@@ -180,21 +180,21 @@ $ systemctl start postgresql-9.6
 #### Kasutaja ja baasi loomine
 https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
 
-/// sudo -u postgres psql
-/// \quit
+/// sudo -u postgres psql  
+/// \quit  
 
 sudo -u postgres createuser ekilex
 
-// $ sudo -u postgres psql
-// psql=# alter user <username> with encrypted password '<password>';
+// $ sudo -u postgres psql  
+// psql=# alter user <username> with encrypted password '<password>';  
 
 $ sudo -u postgres psql
 psql=# alter user ekilex with encrypted password 'ekilexDbPass';
 
 sudo -u postgres createdb --encoding=UTF8 --locale=et_EE.UTF-8 --owner=ekilex --template=template0 ekilex
 
-sudo -u postgres createuser wordweb
-$ sudo -u postgres psql
+sudo -u postgres createuser wordweb  
+$ sudo -u postgres psql  
 psql=# alter user wordweb with encrypted password 'wordwebDbPass';
 
 sudo -u postgres createdb --encoding=UTF8 --locale=et_EE.UTF-8 --owner=wordweb --template=template0 wordweb
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjQxMjkyMiwtMTQ4MDY2NTQ2NiwxNz
-YxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3
-ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNz
-U1LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbLTE0ODE3MzkyNTgsLTE0ODA2NjU0NjYsMT
+c2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcy
+Nzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mj
+c1NSw1MzgxOTk1MjZdfQ==
 -->
