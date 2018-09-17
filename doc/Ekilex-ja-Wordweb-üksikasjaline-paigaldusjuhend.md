@@ -536,29 +536,29 @@ $ netstat -tanp
 
 ##### Link ekilex baasi
 
-$ yum install postgres*contrib
+$ yum install postgres*contrib  
 
-$ sudo -u postgres psql
-CREATE EXTENSION dblink;
-SELECT dblink_connect('host=ekilex-IP user=ekilex password=ekilexDbPass dbname=ekilex');
+$ sudo -u postgres psql  
+CREATE EXTENSION dblink;  
+SELECT dblink_connect('host=ekilex-IP user=ekilex password=ekilexDbPass dbname=ekilex');  
 
 ##### Materjaliseeritud vaadete loomine
 
 sed -i -e 's/password=3kil3x/password=ekilexDbPass/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 sed -i -e 's/host=localhost/host=ekilex-IP/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
-sudo -u postgres psql -U wordweb -d wordweb -a -f /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql
+sudo -u postgres psql -U wordweb -d wordweb -a -f /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 
 #### Ehitamine
 
-Kogu tarkvaraprojekti ehitamine:
+Kogu tarkvaraprojekti ehitamine:  
 /ekilex>mvn clean install -D skipTests
 
-Sõnaveebi rakenduse ehitamine:
+Sõnaveebi rakenduse ehitamine:  
 /ekilex/wordweb-app>mvn clean install -D skipTests
 
 #### Käivitamine
 
-Maven pistaku vahendusel:
+Maven pistaku vahendusel:  
 /ekilex/wordweb-app>mvn spring-boot:run -D spring-boot.run.profiles=prod
 
 
@@ -570,7 +570,7 @@ Maven pistaku vahendusel:
 ##### Rakendus Ekilex Ekilexi masinas
 
 Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!
-Käesolevas juhendis on selleks kasutajaks "kasutaja".
+Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
 
 mkdir /apps/deploy
 mkdir /apps/deploy/ekilex
@@ -602,15 +602,15 @@ JAVA_OPTS=-Xmx4096M
 RUN_ARGS=--spring.profiles.active=prod
 ```
 
-systemctl start ekilex
-systemctl restart ekilex
-systemctl stop ekilex
+systemctl start ekilex  
+systemctl restart ekilex  
+systemctl stop ekilex  
 
-systemctl enable ekilex
-Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.
+systemctl enable ekilex  
+Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.  
 
-systemctl start ekilex
-systemctl status ekilex
+systemctl start ekilex  
+systemctl status ekilex  
 
 
 ```
@@ -697,7 +697,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTkyNDMyMzEsMTYzMDUxMDE3Nyw5MT
+eyJoaXN0b3J5IjpbLTEyOTM2OTA2NTUsMTYzMDUxMDE3Nyw5MT
 MwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5
 MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOS
 wtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
