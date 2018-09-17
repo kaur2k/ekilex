@@ -544,11 +544,11 @@ CREATE EXTENSION dblink;
 SELECT dblink_connect('host=ekilex-IP user=ekilex password=ekilexDbPass dbname=ekilex');  
 
 ##### Materjaliseeritud vaadete loomine
-
+```
 sed -i -e 's/password=3kil3x/password=ekilexDbPass/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 sed -i -e 's/host=localhost/host=ekilex-IP/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 sudo -u postgres psql -U wordweb -d wordweb -a -f /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
-
+```
 #### Ehitamine
 
 Kogu tarkvaraprojekti ehitamine:  
@@ -699,9 +699,9 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MjMxODEzLC0xMTI2OTEzMTksLTE0MD
-Y4NjM5NywtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1
-LC0xNDgwNjY1NDY2LDE3NjE2MTA4MTEsLTE4NjIyOTM5MDIsMT
-kyMTMwNjI4Miw0NDg3Mjc4OTIsLTE3NjU0MjIxMjksLTE2MjIy
-MzYzMTksLTE2MjU3NjI3NTUsNTM4MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbLTE0NTQ0MzA1NDEsLTExMjY5MTMxOSwtMT
+QwNjg2Mzk3LC01MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2
+NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMi
+wxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYy
+MjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
 -->
