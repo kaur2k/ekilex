@@ -569,7 +569,7 @@ Maven pistaku vahendusel:
 ##### Rakendus Ekilex Ekilexi masinas
 
 Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!
-Käesolevas juhendis on selleks kasutajaks "kasutaja"
+Käesolevas juhendis on selleks kasutajaks "kasutaja".
 
 mkdir /apps/deploy
 mkdir /apps/deploy/ekilex
@@ -661,5 +661,6 @@ https://github.com/yaoweibin/nginx_ajp_module
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU3NjI3NTUsNTM4MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbLTE2MjIyMzYzMTksLTE2MjU3NjI3NTUsNT
+M4MTk5NTI2XX0=
 -->
