@@ -464,9 +464,9 @@ Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid (wordweb-IP) ja host
 $ nmtui
 
 Tee läbi mõlemad menüü valikud:  
-"Edit a connection"
-"Set system hostname"
-Välju UI-st
+"Edit a connection"  
+"Set system hostname"  
+Välju UI-st  
 
 $ systemctl restart network.service
 
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTUzNTMzNSwtMTQ4MDY2NTQ2NiwxNz
-YxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3
-ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNz
-U1LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3Nj
+E2MTA4MTEsLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0NDg3Mjc4
+OTIsLTE3NjU0MjIxMjksLTE2MjIyMzYzMTksLTE2MjU3NjI3NT
+UsNTM4MTk5NTI2XX0=
 -->
