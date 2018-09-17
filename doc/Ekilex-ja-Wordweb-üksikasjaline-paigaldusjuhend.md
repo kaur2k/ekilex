@@ -514,11 +514,8 @@ corpora.service.url=https://korp.keeleressursid.ee/cgi-bin/kuuskorp.cgi
 
 #### Tulemüüri konfimine
 
-firewall-cmd --get-default-zone
-firewall-cmd --list-all-zones
-
-firewall-cmd --permanent --zone=public --add-port=5577/tcp
-firewall-cmd --permanent --zone=public --add-port=5578/tcp
+firewall-cmd --permanent --zone=public --add-port=5577/tcp  
+firewall-cmd --permanent --zone=public --add-port=5578/tcp  
 firewall-cmd --permanent --zone=external --add-port=5577/tcp
 firewall-cmd --permanent --zone=external --add-port=5578/tcp
 firewall-cmd --reload
@@ -701,11 +698,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMj
-A0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMTUzODQw
-NDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1NjA1OC
-wxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2NiwxNzYx
-NjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3OD
-kyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNzU1
-LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbMTM5MjA0OTgxMiwxMDkwNDM3ODkzLC0xOT
+Q0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4
+MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5Ny
+wtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0xNDgw
+NjY1NDY2LDE3NjE2MTA4MTEsLTE4NjIyOTM5MDIsMTkyMTMwNj
+I4Miw0NDg3Mjc4OTIsLTE3NjU0MjIxMjksLTE2MjIyMzYzMTks
+LTE2MjU3NjI3NTVdfQ==
 -->
