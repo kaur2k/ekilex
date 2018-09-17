@@ -45,9 +45,9 @@ $ systemctl restart network.service
 
 ### SSH lubamine
 
-Muuda midagi siin (ma ei mäleta, mida ma tegin, et see tööle hakkas), aga muutsin
+Muuda midagi siin, kommenteeri mõned read lahti (ma ei mäleta, mida ma tegin, et see tööle hakkas):
+
 $ nano /etc/ssh/sshd_config
-seal oli peaaegu kõik kinni kommenteeritud
 
 <!--
 https://www.putorius.net/2014/07/restarting-services-in-red-hat-7-or.html
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTUwMDQzMiwxNzYxNjEwODExLC0xOD
-YyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3ODkyLC0xNzY1NDIy
-MTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNzU1LDUzODE5OTUyNl
-19
+eyJoaXN0b3J5IjpbLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMT
+g2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQy
+MjEyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1Mj
+ZdfQ==
 -->
