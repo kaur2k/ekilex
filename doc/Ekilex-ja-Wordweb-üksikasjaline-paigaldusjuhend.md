@@ -9,7 +9,7 @@ wordweb-IP = (Sõnaveeb masina IP sisevõrgus)
 ekilexDbPass = andmebaasi kasutaja "ekilex" parool (Ekilex masinas)  
 wordwebDbPass = andmebaasi kasutaja "wordweb" parool (Wordweb masinas)  
 termEkiUser = Termeki andmebaasi kasutajanimi  
-termEkiPass = Termeki andmebaasi kasutaja parool  
+termEkiPass = Termeki andmebaasi parool  
 
 
 ## Enne paigaldust
@@ -44,7 +44,7 @@ Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid ja hostname
 $ nmtui
 
 Tee läbi mõlemad menüü valikud:  
-"Edit a connection"  
+"Edit a connection" (  
 "Set system hostname"  
 Välju UI-st  
 
@@ -711,11 +711,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMjg5NDE3LDIwNjg5NjAyMTUsLTIxMj
-g5OTMwNzAsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1
-MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4MDkzOS
-wxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5NywtNTEx
-MjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0xNDgwNjY1ND
-Y2LDE3NjE2MTA4MTEsLTE4NjIyOTM5MDIsMTkyMTMwNjI4Miw0
-NDg3Mjc4OTJdfQ==
+eyJoaXN0b3J5IjpbMjAyNjE5MzMwMywyMDY4OTYwMjE1LC0yMT
+I4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1
+NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5Mz
+ksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUx
+MTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NT
+Q2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIs
+NDQ4NzI3ODkyXX0=
 -->
