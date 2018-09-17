@@ -290,9 +290,9 @@ git checkout 1.1.0
 
 ///Tekitada kataloogid:  
 
-mkdir data
-mkdir data/files
-mkdir logs
+mkdir data  
+mkdir data/files  
+mkdir logs  
 
 
 
@@ -339,15 +339,15 @@ doreports=false
 /// nano /apps/source/ekilex/ekilex-etl/target/classes
 
 
-failid:
-Kopeeri ekitest serverilt:
+failid:  
+Kopeeri ekitest serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
 
 
-ehitamine:
+ehitamine:  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
 
-käivitamine:
+käivitamine:  
 /ekilex/ekilex-etl>mvn exec:java -P prodsrvall
 
 
@@ -389,7 +389,7 @@ file.repository.path=/apps/data/files/
 ```
 
 Failiressursid – pildid, hääldused, jms. Sisu kohta küsi täpsemalt arendajatelt.
-
+TODO!
 
 
 #### Ehitamine
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDUzMjg3MCwtMTQ4MDY2NTQ2NiwxNz
-YxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3
-ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNz
-U1LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbLTE1MzUzMjg1NzUsLTE0ODA2NjU0NjYsMT
+c2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcy
+Nzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mj
+c1NSw1MzgxOTk1MjZdfQ==
 -->
