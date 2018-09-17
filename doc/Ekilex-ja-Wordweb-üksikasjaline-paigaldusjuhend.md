@@ -477,8 +477,8 @@ $ systemctl restart network.service
 
 ### Konfigureerimine
 
-Konfigureeri toodangukeskkonna-spetsiifiliste määrangute fail
-`nano /apps/source/ekilex/wordweb-app/src/main/resources/application-prod.properties`
+Konfigureeri toodangukeskkonna-spetsiifiliste määrangute fail  
+nano /apps/source/ekilex/wordweb-app/src/main/resources/application-prod.properties
 
 ```
 #Rakendusserveri parameetrid
@@ -700,10 +700,10 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMT
-UzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1
-NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2Ni
-wxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4
-NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1Nz
-YyNzU1LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0yMD
+E4MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwtMTQwNjg2
+Mzk3LC01MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLT
+E0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIx
+MzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNj
+MxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
 -->
