@@ -4,9 +4,9 @@
 # EKILEXi ja Sõnaveebi paigaldusjuhend
 Juhendis tuleks asendada/välja mõelda/küsida järgnevad sõned:
 
-ekilex-IP = 192.168.xxx.xxx (Ekilex masina sisevõrgu IP)  
-wordweb-IP = 192.168.yyy.yyy (Wordweb masina sisevõ)  
-ekilexDbPass = ????  
+ekilex-IP = (Ekilex masina IP sisevõrgus)  
+wordweb-IP = (Sõnaveeb masina IP sisevõrgus)  
+ekilexDbPass = andmebaasi kasutaja "ekilex" parool  
 wordwebDbPass = ?????  
 termEkiUser = ??????  
 termEkiPass = ???????  
@@ -711,7 +711,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDc2MjI3MiwyMDY4OTYwMjE1LC0yMT
+eyJoaXN0b3J5IjpbLTE2NDQ5MTQwNiwyMDY4OTYwMjE1LC0yMT
 I4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1
 NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5Mz
 ksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUx
