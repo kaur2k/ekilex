@@ -398,10 +398,10 @@ TODO!
 
 
 #### Käivitamine
-Nii:
+Nii:  
 /ekilex/ekilex-app> mvn spring-boot:run -D spring-boot.run.profiles=prod
 
-Või nii:
+Või nii:  
 java -jar /apps/source/ekilex/ekilex-app/target/ekilex-app.jar --spring.profiles.active=prod
 
 
@@ -418,8 +418,8 @@ COMMIT;
 
 #### Tulemüüri konfimine
 
-firewall-cmd --get-default-zone
-firewall-cmd --list-all-zones
+firewall-cmd --get-default-zone  
+firewall-cmd --list-all-zones  
 
 ```
 firewall-cmd --permanent --zone=public --add-port=5555/tcp
@@ -437,13 +437,13 @@ Postgresqli port 5432 on avatud eraldiseisva Sõnaveebi masina jaoks
 
 //java avab pordi ainult ipv6 peal?
 
-firewall-cmd --list-ports
-lsof -i -P
-lsof -i4 -P
-lsof -i6 -P
+firewall-cmd --list-ports  
+lsof -i -P  
+lsof -i4 -P  
+lsof -i6 -P  
 
-$ yum install net-tools
-$ netstat -tan
+$ yum install net-tools  
+$ netstat -tan  
 
 
 
@@ -457,13 +457,13 @@ $ netstat -tan
 
 ### Määra staatiline IP ja hostname
 
-Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid (wordweb-IP) ja hostname
+Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid (wordweb-IP) ja hostname.
 <!-- "sonaveeb-test.tb.eki.ee"? -->
 
 
 $ nmtui
 
-Tee läbi mõlemad menüü valikud:
+Tee läbi mõlemad menüü valikud:  
 "Edit a connection"
 "Set system hostname"
 Välju UI-st
@@ -697,8 +697,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUzMjg1NzUsLTE0ODA2NjU0NjYsMT
-c2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLDQ0ODcy
-Nzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYyNTc2Mj
-c1NSw1MzgxOTk1MjZdfQ==
+eyJoaXN0b3J5IjpbLTYwOTUzNTMzNSwtMTQ4MDY2NTQ2NiwxNz
+YxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3
+ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNz
+U1LDUzODE5OTUyNl19
 -->
