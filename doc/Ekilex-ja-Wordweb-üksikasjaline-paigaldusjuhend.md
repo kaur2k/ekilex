@@ -44,7 +44,7 @@ Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid ja hostname
 $ nmtui
 
 Tee läbi mõlemad menüü valikud:  
-"Edit a connection" (  
+"Edit a connection" (määra ekilex-IP)  
 "Set system hostname"  
 Välju UI-st  
 
@@ -478,7 +478,7 @@ Kasuta tekstipõhist UI-d, et seadistada võrgu parameetrid (wordweb-IP) ja host
 $ nmtui
 
 Tee läbi mõlemad menüü valikud:  
-"Edit a connection"  
+"Edit a connection" (määra wordweb-IP)  
 "Set system hostname"  
 Välju UI-st  
 
@@ -711,11 +711,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjE5MzMwMywyMDY4OTYwMjE1LC0yMT
-I4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1
-NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5Mz
-ksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUx
-MTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NT
-Q2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIs
-NDQ4NzI3ODkyXX0=
+eyJoaXN0b3J5IjpbLTE0Mjg0NTEzNDEsMjA2ODk2MDIxNSwtMj
+EyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0Mzc4OTMsLTE5NDQ1
+NTUzNjksMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0yMDE4MzgwOT
+M5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwtMTQwNjg2Mzk3LC01
+MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2Nj
+U0NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2Mjgy
+LDQ0ODcyNzg5Ml19
 -->
