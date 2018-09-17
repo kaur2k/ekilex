@@ -609,6 +609,7 @@ systemctl start ekilex
 systemctl restart ekilex  
 systemctl stop ekilex  
 
+// ei hakka tööle...
 systemctl start ekilex  
 systemctl status ekilex  
 
@@ -697,9 +698,8 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMwODUyMzUsMTYzMDUxMDE3Nyw5MT
-MwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwtMTg2MjI5
-MzkwMiwxOTIxMzA2MjgyLDQ0ODcyNzg5MiwtMTc2NTQyMjEyOS
-wtMTYyMjIzNjMxOSwtMTYyNTc2Mjc1NSw1MzgxOTk1MjZdfQ==
-
+eyJoaXN0b3J5IjpbLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMz
+A2NDY2NSwtMTQ4MDY2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkz
+OTAyLDE5MjEzMDYyODIsNDQ4NzI3ODkyLC0xNzY1NDIyMTI5LC
+0xNjIyMjM2MzE5LC0xNjI1NzYyNzU1LDUzODE5OTUyNl19
 -->
