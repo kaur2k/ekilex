@@ -1,7 +1,7 @@
 ﻿
 
-===================================================================================================
-# EKILEXi ja Sõnaveebi PAIGALDUSJUHEND
+
+# EKILEXi ja Sõnaveebi paigaldusjuhend
 
 ## Enne paigaldust
 
@@ -340,7 +340,7 @@ doreports=false
 
 failid:
 Kopeeri ekitest serverilt:
-/var/apps/file_storage/\*/ > /apps/data/files/\*
+/var/apps/file_storage/\* > /apps/data/files/\*
 
 
 ehitamine:
@@ -661,5 +661,5 @@ https://github.com/yaoweibin/nginx_ajp_module
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5NDEyMjI3LDUzODE5OTUyNl19
+eyJoaXN0b3J5IjpbLTE2MjU3NjI3NTUsNTM4MTk5NTI2XX0=
 -->
