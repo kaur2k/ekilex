@@ -670,7 +670,7 @@ HTTP protokolliga:
 server {
     listen       väline-IP:80;
     listen       väline-IP:443 ssl;
-    server_name  test.ekilex.ee;
+    server_name  väline.domeeni.nimi;
 
     ssl_certificate     /etc/nginx/ssl/ssl_chained.crt;
     ssl_certificate_key /etc/nginx/ssl/private/ssl_priv.key;
@@ -700,10 +700,10 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgzODA5MzksMTUzODQwNDE0OSwtMT
-EyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1NjA1OCwxNjMwNTEw
-MTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2NiwxNzYxNjEwODExLC
-0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4NzI3ODkyLC0xNzY1
-NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1NzYyNzU1LDUzODE5OT
-UyNl19
+eyJoaXN0b3J5IjpbLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMT
+UzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1
+NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2Ni
+wxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYyODIsNDQ4
+NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC0xNjI1Nz
+YyNzU1LDUzODE5OTUyNl19
 -->
