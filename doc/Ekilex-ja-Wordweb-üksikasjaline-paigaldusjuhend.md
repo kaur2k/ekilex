@@ -415,7 +415,7 @@ su - postgres
 ```
 \connect ekilex
 insert into eki_user (name, email, password, roles) values ('Armas Tähetark', 'armas@nowhere.com', '$2a$10$t8A6FTC2n5Q8dfshCKBe5e5vkqDcq722MKdCYwF/I.mQ3X7e6y5IK', '{basic_user}');
-insert into eki_user (name, email, password, roles) values ('Kaur Männiko', 'kaur.manniko@eki.ee', '$2a$10$14Y.SvY66HbFPdUU6ChXduj.P9xcsQzv3Q8I4rOdN4NgnoE.WN2oW', '{basic_user}');
+insert into eki_user (name, email, password, roles) values ('Kaur M', 'kaur@hacki.ee', '$2a$10$14Y.SvY66HbFPdUU6ChXduj.P9xcsQzv3Q8I4rOdN4NgnoE.WN2oW', '{basic_user}');
 
 COMMIT;
 ```
@@ -692,7 +692,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTM4ODYzMiwxMDkwNDM3ODkzLC0xOT
+eyJoaXN0b3J5IjpbMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOT
 Q0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4
 MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5Ny
 wtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0xNDgw
