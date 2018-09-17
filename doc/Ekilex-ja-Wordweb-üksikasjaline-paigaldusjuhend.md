@@ -285,7 +285,7 @@ git fetch
 git branch -a  
 
 ///uus ver  
-git checkout 1.1.0  
+git checkout **1.1.0**  
 
 
 ///Tekitada kataloogid:  
@@ -697,7 +697,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDYwMTg1LDkxMzA2NDY2NSwtMTQ4MD
+eyJoaXN0b3J5IjpbMTcyOTc0MTY5LDkxMzA2NDY2NSwtMTQ4MD
 Y2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLDE5MjEzMDYy
 ODIsNDQ4NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIyMjM2MzE5LC
 0xNjI1NzYyNzU1LDUzODE5OTUyNl19
