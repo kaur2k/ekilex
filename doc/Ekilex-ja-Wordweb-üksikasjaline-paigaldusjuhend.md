@@ -6,7 +6,7 @@
 ## Enne paigaldust
 
 ### Vajalike pakettide paigaldamine
-
+```
 yum install ntpdate
 timedatectl list-timezones | grep Tallinn
 timedatectl set-timezone Europe/Tallinn
@@ -18,7 +18,7 @@ yum install wget
 
 yum install epel-release
 yum install htop
-
+```
 
 
 
@@ -661,5 +661,5 @@ https://github.com/yaoweibin/nginx_ajp_module
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MTk5NTI2XX0=
+eyJoaXN0b3J5IjpbMTcxNTkwNTE5NCw1MzgxOTk1MjZdfQ==
 -->
