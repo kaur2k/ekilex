@@ -453,11 +453,11 @@ $ netstat -tan
 
 
 ---------------
-( siin teen Ekilex VM-ist koopia Sonaveebi jaoks)
+( siin teen Ekilex VM-ist koopia Sõnaveebi jaoks)
 
 ---------------
 
-## Veebirakendus Sonaveeb (omaette VM-is)
+## Veebirakendus Sõnaveeb (omaette VM-is)
 
 ### Määra staatiline IP ja hostname
 
@@ -702,9 +702,9 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY5MTMxOSwtMTQwNjg2Mzk3LC01MT
-EyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0
-NjYsMTc2MTYxMDgxMSwtMTg2MjI5MzkwMiwxOTIxMzA2MjgyLD
-Q0ODcyNzg5MiwtMTc2NTQyMjEyOSwtMTYyMjIzNjMxOSwtMTYy
-NTc2Mjc1NSw1MzgxOTk1MjZdfQ==
+eyJoaXN0b3J5IjpbLTkwNjc3OTY1MSwtMTEyNjkxMzE5LC0xND
+A2ODYzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2
+NSwtMTQ4MDY2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkzOTAyLD
+E5MjEzMDYyODIsNDQ4NzI3ODkyLC0xNzY1NDIyMTI5LC0xNjIy
+MjM2MzE5LC0xNjI1NzYyNzU1LDUzODE5OTUyNl19
 -->
