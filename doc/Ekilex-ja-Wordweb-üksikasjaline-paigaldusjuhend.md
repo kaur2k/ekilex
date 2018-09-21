@@ -572,7 +572,7 @@ Maven pistaku vahendusel:
 
 ##### Rakendus Ekilex Ekilexi masinas
 
-Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!
+Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!  
 Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
 ```
 mkdir /apps/deploy
@@ -711,7 +711,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTAzNTkxNywtMTQyODQ1MTM0MSwyMD
+eyJoaXN0b3J5IjpbLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMD
 Y4OTYwMjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQz
 Nzg5MywtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMz
 MsLTIwMTgzODA5MzksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0x
