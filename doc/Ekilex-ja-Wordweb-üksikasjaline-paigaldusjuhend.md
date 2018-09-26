@@ -358,10 +358,10 @@ a) Kopeeri ekitest.tripledev.ee serverilt:
 /var/apps/data/\* > /apps/data/dicts/\*
 
 
-ehitamine:  
+Ehitamine:  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
 
-käivitamine:  
+Käivitamine:  
 /ekilex/ekilex-etl>mvn exec:java -P prodsrvall
 
 
@@ -712,11 +712,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MjMxNywtNzkxNjEyNzQ5LC0xNDI4ND
-UxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1
-NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMT
-YxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2
-OTEzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2MzA1MTAxNz
-csOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3NjE2MTA4MTEsLTE4
-NjIyOTM5MDJdfQ==
+eyJoaXN0b3J5IjpbODUzMTI5NDEsLTc5MTYxMjc0OSwtMTQyOD
+Q1MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2
+NTcsMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMjA0OTM1MzksLT
+E2MTExMzkwMzMsLTIwMTgzODA5MzksMTUzODQwNDE0OSwtMTEy
+NjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMT
+c3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2NiwxNzYxNjEwODExLC0x
+ODYyMjkzOTAyXX0=
 -->
