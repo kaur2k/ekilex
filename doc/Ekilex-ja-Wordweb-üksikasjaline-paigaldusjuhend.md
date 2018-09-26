@@ -352,8 +352,8 @@ doreports=false
 /// nano /apps/source/ekilex/ekilex-etl/target/classes
 
 
-Vajalike failid:  
-Kopeeri ekitest.tripledev.ee serverilt:  
+Vajalike andmefailide paigaldamine (variandid):  
+a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
 /var/apps/data/\* > /apps/data/files/\*
 
@@ -712,7 +712,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTAzMzQyLC03OTE2MTI3NDksLTE0Mj
+eyJoaXN0b3J5IjpbNTgxNzE0MDg3LC03OTE2MTI3NDksLTE0Mj
 g0NTEzNDEsMjA2ODk2MDIxNSwtMjEyODk5MzA3MCwxNzQ4NTcx
 NjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC
 0xNjExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDksLTEx
