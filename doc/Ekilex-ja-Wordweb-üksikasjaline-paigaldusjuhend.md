@@ -352,9 +352,10 @@ doreports=false
 /// nano /apps/source/ekilex/ekilex-etl/target/classes
 
 
-failid:  
+Vajalike failid:  
 Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
+/var/apps/data/\* > /apps/data/files/\*
 
 
 ehitamine:  
@@ -711,11 +712,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMD
-Y4OTYwMjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQz
-Nzg5MywtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMz
-MsLTIwMTgzODA5MzksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0x
-NDA2ODYzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2ND
-Y2NSwtMTQ4MDY2NTQ2NiwxNzYxNjEwODExLC0xODYyMjkzOTAy
-LDE5MjEzMDYyODJdfQ==
+eyJoaXN0b3J5IjpbMTM1OTAzMzQyLC03OTE2MTI3NDksLTE0Mj
+g0NTEzNDEsMjA2ODk2MDIxNSwtMjEyODk5MzA3MCwxNzQ4NTcx
+NjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC
+0xNjExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDksLTEx
+MjY5MTMxOSwtMTQwNjg2Mzk3LC01MTEyNTYwNTgsMTYzMDUxMD
+E3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwt
+MTg2MjI5MzkwMl19
 -->
