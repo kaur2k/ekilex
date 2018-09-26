@@ -355,7 +355,7 @@ doreports=false
 Vajalike andmefailide paigaldamine (variandid):  
 a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
-/var/apps/data/\* > /apps/data/files/\*
+/var/apps/data/\* > /apps/data/dicts/\*
 
 
 ehitamine:  
@@ -712,11 +712,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNzE0MDg3LC03OTE2MTI3NDksLTE0Mj
-g0NTEzNDEsMjA2ODk2MDIxNSwtMjEyODk5MzA3MCwxNzQ4NTcx
-NjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC
-0xNjExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDksLTEx
-MjY5MTMxOSwtMTQwNjg2Mzk3LC01MTEyNTYwNTgsMTYzMDUxMD
-E3Nyw5MTMwNjQ2NjUsLTE0ODA2NjU0NjYsMTc2MTYxMDgxMSwt
-MTg2MjI5MzkwMl19
+eyJoaXN0b3J5IjpbNDI2MjMxNywtNzkxNjEyNzQ5LC0xNDI4ND
+UxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1
+NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMT
+YxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2
+OTEzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2MzA1MTAxNz
+csOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3NjE2MTA4MTEsLTE4
+NjIyOTM5MDJdfQ==
 -->
