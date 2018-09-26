@@ -356,7 +356,7 @@ Vajalike andmefailide paigaldamine (variandid):
 a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
 /var/apps/data/\* > /apps/data/dicts/\*
-b) Küsi EKI-st pakitud failid ja paki lahti:
+b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti:
 
 Ehitamine:  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
@@ -712,7 +712,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk2MjI5MSwtNzkxNjEyNzQ5LC0xND
+eyJoaXN0b3J5IjpbLTQ4ODM5NjA1NCwtNzkxNjEyNzQ5LC0xND
 I4NDUxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3
 MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOS
 wtMTYxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MTQ5LC0x
