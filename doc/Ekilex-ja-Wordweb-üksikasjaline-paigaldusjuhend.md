@@ -352,9 +352,11 @@ Logimise määrangud asuvad:
 #### Sõnakogude failid
 
 Vajalike andmefailide paigaldamine (variandid):  
+
 a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\* 
 /var/apps/data/\* > /apps/data/dicts/\* 
+
 b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
 mkdir /apps/data/dicts  
 mkdir /apps/data/files  
@@ -718,11 +720,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTY2NzU2OSwtMTkzODIwMzkwMSw0Nz
-Q1MTAwNDAsLTQ4ODM5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUx
-MzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1Ny
-wxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMTYx
-MTEzOTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OT
-EzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2MzA1MTAxNzcs
-OTEzMDY0NjY1XX0=
+eyJoaXN0b3J5IjpbLTE0MDMwMjczNDEsLTU5OTY2NzU2OSwtMT
+kzODIwMzkwMSw0NzQ1MTAwNDAsLTQ4ODM5NjA1NCwtNzkxNjEy
+NzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNz
+AsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMy
+MDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4ND
+A0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4
+LDE2MzA1MTAxNzddfQ==
 -->
