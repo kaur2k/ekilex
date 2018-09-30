@@ -361,12 +361,12 @@ b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr
 ```
 mkdir /apps/data/dicts  
 tar -xzvf ekilex-dicts-1.1.0.tar.gz /apps/data/dicts  
-rm ekilex-files-1.1.0.tar.gz  
+rm ekilex-dicts-1.1.0.tar.gz  
 chown -R ekilex:ekilex /opt/ekilex_deploy/dicts
 
 mkdir /apps/data/files  
 tar -xzvf ekilex-files-1.1.0.tar.gz /apps/data/files  
-rm ekilex-dicts-1.1.0.tar.gz  
+rm ekilex-files-1.1.0.tar.gz  
 chown -R ekilex:ekilex /opt/ekilex_deploy/files
 ```
 
@@ -725,11 +725,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTM4MTMwMSw1NTYwNzIzNTUsLTU5OT
-Y2NzU2OSwtMTkzODIwMzkwMSw0NzQ1MTAwNDAsLTQ4ODM5NjA1
-NCwtNzkxNjEyNzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAyMTUsLT
-IxMjg5OTMwNzAsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0
-NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4MD
-kzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5Nywt
-NTExMjU2MDU4XX0=
+eyJoaXN0b3J5IjpbMTc5NTYyNTQ5NSwtOTY1MzgxMzAxLDU1Nj
+A3MjM1NSwtNTk5NjY3NTY5LC0xOTM4MjAzOTAxLDQ3NDUxMDA0
+MCwtNDg4Mzk2MDU0LC03OTE2MTI3NDksLTE0Mjg0NTEzNDEsMj
+A2ODk2MDIxNSwtMjEyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0
+Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC0xNjExMTM5MD
+MzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwt
+MTQwNjg2Mzk3XX0=
 -->
