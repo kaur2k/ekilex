@@ -345,6 +345,9 @@ termeki.data.file=/apps/data/dicts/termeki-databases.csv
 doreports=false
 
 ```
+Logimise määrangud asuvad:
+/apps/source/ekilex/ekilex-etl/envresources/prod/logback.xml
+
 
 #### Sõnakogude laadimine
 
@@ -712,11 +715,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODM5NjA1NCwtNzkxNjEyNzQ5LC0xND
-I4NDUxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3
-MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOS
-wtMTYxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4NDA0MTQ5LC0x
-MTI2OTEzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4LDE2MzA1MT
-AxNzcsOTEzMDY0NjY1LC0xNDgwNjY1NDY2LDE3NjE2MTA4MTEs
-LTE4NjIyOTM5MDJdfQ==
+eyJoaXN0b3J5IjpbNDc0NTEwMDQwLC00ODgzOTYwNTQsLTc5MT
+YxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkz
+MDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1NTM2OS
+wzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMTUz
+ODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1Nj
+A1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2Niwx
+NzYxNjEwODExXX0=
 -->
