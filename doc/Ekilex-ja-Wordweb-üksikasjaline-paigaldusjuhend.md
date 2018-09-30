@@ -351,10 +351,6 @@ Logimise määrangud asuvad:
 
 #### Sõnakogude laadimine
 
-
-/// nano /apps/source/ekilex/ekilex-etl/target/classes
-
-
 Vajalike andmefailide paigaldamine (variandid):  
 a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\* 
@@ -719,11 +715,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjE5ODIsNDc0NTEwMDQwLC00ODgzOT
-YwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1
-LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMT
-k0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgz
-ODA5MzksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOT
-csLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4
-MDY2NTQ2Nl19
+eyJoaXN0b3J5IjpbLTMwNTI4MjY0Myw0NzQ1MTAwNDAsLTQ4OD
+M5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAy
+MTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC
+0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAx
+ODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4Nj
+M5NywtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0x
+NDgwNjY1NDY2XX0=
 -->
