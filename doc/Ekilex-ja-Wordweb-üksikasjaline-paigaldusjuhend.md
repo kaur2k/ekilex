@@ -345,8 +345,8 @@ termeki.data.file=/apps/data/dicts/termeki-databases.csv
 doreports=false
 
 ```
-Logimise määrangud asuvad:
-/apps/source/ekilex/ekilex-etl/envresources/prod/logback.xml
+Logimise määrangud asuvad:  
+/apps/source/ekilex/ekilex-etl/envresources/prod/logback.xml  
 
 
 #### Sõnakogude laadimine
@@ -357,7 +357,7 @@ Logimise määrangud asuvad:
 
 Vajalike andmefailide paigaldamine (variandid):  
 a) Kopeeri ekitest.tripledev.ee serverilt:  
-/var/apps/file_storage/\* > /apps/data/files/\*
+/var/apps/file_storage/\* > /apps/data/files/\* 
 /var/apps/data/\* > /apps/data/dicts/\* 
 b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
 ekilex-dicts-1.1.0.tar.gz  
@@ -717,11 +717,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTYwNjA1OTYsNDc0NTEwMDQwLC00OD
-gzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYw
-MjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5My
-wtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIw
-MTgzODA5MzksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2OD
-YzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwt
-MTQ4MDY2NTQ2Nl19
+eyJoaXN0b3J5IjpbOTY4MjYwMDc2LDQ3NDUxMDA0MCwtNDg4Mz
+k2MDU0LC03OTE2MTI3NDksLTE0Mjg0NTEzNDEsMjA2ODk2MDIx
+NSwtMjEyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0Mzc4OTMsLT
+E5NDQ1NTUzNjksMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0yMDE4
+MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwtMTQwNjg2Mz
+k3LC01MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0
+ODA2NjU0NjZdfQ==
 -->
