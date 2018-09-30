@@ -359,7 +359,7 @@ Vajalike andmefailide paigaldamine (variandid):
 a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
 /var/apps/data/\* > /apps/data/dicts/\*
-b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti:
+b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):
 
 Ehitamine:  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
@@ -715,11 +715,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0NTEwMDQwLC00ODgzOTYwNTQsLTc5MT
-YxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkz
-MDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1NTM2OS
-wzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMTUz
-ODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1Nj
-A1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwtMTQ4MDY2NTQ2Niwx
-NzYxNjEwODExXX0=
+eyJoaXN0b3J5IjpbLTE3MzEyMjM0NzAsNDc0NTEwMDQwLC00OD
+gzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYw
+MjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5My
+wtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIw
+MTgzODA5MzksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2OD
+YzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwt
+MTQ4MDY2NTQ2Nl19
 -->
