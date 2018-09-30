@@ -312,7 +312,7 @@ mkdir logs
 
 Sõnakogusid saab laadida ükshaaval või kõik korraga (ultima-loader). Järgnevalt kasutame viimast.
 
-##### Konfigureerimine
+#### Konfigureerimine
 
 nano /apps/source/ekilex/ekilex-etl/envresources/prod/ekilex-etl.properties
 ```
@@ -716,11 +716,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTY0MzY4Niw0NzQ1MTAwNDAsLTQ4OD
-M5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAy
-MTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC
-0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAx
-ODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4Nj
-M5NywtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0x
-NDgwNjY1NDY2XX0=
+eyJoaXN0b3J5IjpbLTE5MzgyMDM5MDEsNDc0NTEwMDQwLC00OD
+gzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYw
+MjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5My
+wtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIw
+MTgzODA5MzksMTUzODQwNDE0OSwtMTEyNjkxMzE5LC0xNDA2OD
+YzOTcsLTUxMTI1NjA1OCwxNjMwNTEwMTc3LDkxMzA2NDY2NSwt
+MTQ4MDY2NTQ2Nl19
 -->
