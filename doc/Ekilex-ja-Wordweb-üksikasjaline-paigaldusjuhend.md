@@ -358,8 +358,10 @@ Logimise määrangud asuvad:
 Vajalike andmefailide paigaldamine (variandid):  
 a) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\*
-/var/apps/data/\* > /apps/data/dicts/\*
-b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):
+/var/apps/data/\* > /apps/data/dicts/\* 
+b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
+ekilex-dicts-1.1.0.tar.gz  
+ekilex-files-1.1.0.tar.gz  
 
 Ehitamine:  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
@@ -715,7 +717,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEyMjM0NzAsNDc0NTEwMDQwLC00OD
+eyJoaXN0b3J5IjpbLTE1MTYwNjA1OTYsNDc0NTEwMDQwLC00OD
 gzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYw
 MjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5My
 wtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIw
