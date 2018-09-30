@@ -358,12 +358,14 @@ a) Kopeeri ekitest.tripledev.ee serverilt:
 /var/apps/data/\* > /apps/data/dicts/\* 
 
 b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
+```
 mkdir /apps/data/dicts  
 mkdir /apps/data/files  
 tar -xzvf ekilex-dicts-1.1.0.tar.gz /apps/data/dicts  
 tar -xzvf ekilex-files-1.1.0.tar.gz /apps/data/files  
 rm ekilex-dicts-1.1.0.tar.gz  
 rm ekilex-files-1.1.0.tar.gz  
+```
 
 #### Ehitamine  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
@@ -720,11 +722,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMwMjczNDEsLTU5OTY2NzU2OSwtMT
-kzODIwMzkwMSw0NzQ1MTAwNDAsLTQ4ODM5NjA1NCwtNzkxNjEy
-NzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNz
-AsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMy
-MDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4MDkzOSwxNTM4ND
-A0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5NywtNTExMjU2MDU4
-LDE2MzA1MTAxNzddfQ==
+eyJoaXN0b3J5IjpbNTU2MDcyMzU1LC01OTk2Njc1NjksLTE5Mz
+gyMDM5MDEsNDc0NTEwMDQwLC00ODgzOTYwNTQsLTc5MTYxMjc0
+OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkzMDcwLD
+E3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMjA0
+OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMTUzODQwND
+E0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1NjA1OCwx
+NjMwNTEwMTc3XX0=
 -->
