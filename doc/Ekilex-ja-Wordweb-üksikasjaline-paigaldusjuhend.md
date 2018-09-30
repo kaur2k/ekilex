@@ -349,7 +349,7 @@ Logimise määrangud asuvad:
 /apps/source/ekilex/ekilex-etl/envresources/prod/logback.xml  
 
 
-#### Sõnakogude laadimine
+#### Sõnakogude failid
 
 Vajalike andmefailide paigaldamine (variandid):  
 a) Kopeeri ekitest.tripledev.ee serverilt:  
@@ -361,10 +361,10 @@ tar -xzvf ekilex-files-1.1.0.tar.gz /apps/data/files
 rm ekilex-dicts-1.1.0.tar.gz  
 rm ekilex-files-1.1.0.tar.gz  
 
-Ehitamine:  
+#### Ehitamine  
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
 
-Käivitamine:  
+#### Käivitamine  
 /ekilex/ekilex-etl>mvn exec:java -P prodsrvall
 
 
@@ -716,11 +716,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2Mzk1Mzk5LDQ3NDUxMDA0MCwtNDg4Mz
-k2MDU0LC03OTE2MTI3NDksLTE0Mjg0NTEzNDEsMjA2ODk2MDIx
-NSwtMjEyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0Mzc4OTMsLT
-E5NDQ1NTUzNjksMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0yMDE4
-MzgwOTM5LDE1Mzg0MDQxNDksLTExMjY5MTMxOSwtMTQwNjg2Mz
-k3LC01MTEyNTYwNTgsMTYzMDUxMDE3Nyw5MTMwNjQ2NjUsLTE0
-ODA2NjU0NjZdfQ==
+eyJoaXN0b3J5IjpbMTk1MTY0MzY4Niw0NzQ1MTAwNDAsLTQ4OD
+M5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAy
+MTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC
+0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAx
+ODM4MDkzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4Nj
+M5NywtNTExMjU2MDU4LDE2MzA1MTAxNzcsOTEzMDY0NjY1LC0x
+NDgwNjY1NDY2XX0=
 -->
