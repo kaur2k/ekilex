@@ -360,11 +360,14 @@ a) Kopeeri ekitest.tripledev.ee serverilt:
 b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
 ```
 mkdir /apps/data/dicts  
-mkdir /apps/data/files  
 tar -xzvf ekilex-dicts-1.1.0.tar.gz /apps/data/dicts  
+rm ekilex-files-1.1.0.tar.gz  
+chown -R ekilex:ekilex /opt/ekilex_deploy/dicts
+
+mkdir /apps/data/files  
 tar -xzvf ekilex-files-1.1.0.tar.gz /apps/data/files  
 rm ekilex-dicts-1.1.0.tar.gz  
-rm ekilex-files-1.1.0.tar.gz  
+chown -R ekilex:ekilex /opt/ekilex_deploy/files
 ```
 
 #### Ehitamine  
@@ -722,11 +725,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2MDcyMzU1LC01OTk2Njc1NjksLTE5Mz
-gyMDM5MDEsNDc0NTEwMDQwLC00ODgzOTYwNTQsLTc5MTYxMjc0
-OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkzMDcwLD
-E3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMjA0
-OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5MzksMTUzODQwND
-E0OSwtMTEyNjkxMzE5LC0xNDA2ODYzOTcsLTUxMTI1NjA1OCwx
-NjMwNTEwMTc3XX0=
+eyJoaXN0b3J5IjpbLTk2NTM4MTMwMSw1NTYwNzIzNTUsLTU5OT
+Y2NzU2OSwtMTkzODIwMzkwMSw0NzQ1MTAwNDAsLTQ4ODM5NjA1
+NCwtNzkxNjEyNzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAyMTUsLT
+IxMjg5OTMwNzAsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0
+NTU1MzY5LDMyMDQ5MzUzOSwtMTYxMTEzOTAzMywtMjAxODM4MD
+kzOSwxNTM4NDA0MTQ5LC0xMTI2OTEzMTksLTE0MDY4NjM5Nywt
+NTExMjU2MDU4XX0=
 -->
