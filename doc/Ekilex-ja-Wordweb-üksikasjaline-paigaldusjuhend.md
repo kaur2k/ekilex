@@ -555,8 +555,11 @@ TODO: Muuda ära ka eelmises peatükis (/apps/source/ekilex/wordweb-app/src/main
 $ yum install postgres*contrib  
 
 $ sudo -u postgres psql  
+```
 CREATE EXTENSION dblink;  
 SELECT dblink_connect('host=ekilex-IP user=ekilex password=ekilexDbPass dbname=ekilex');  
+q
+```
 
 ##### Materjaliseeritud vaadete loomine
 Kõigepealt modifitseerin create_mviews.sql skripti, siis käivitan selle.
@@ -725,11 +728,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzAxNjA1MywtMTkzODQ1OTUyOSwxNz
-k1NjI1NDk1LC05NjUzODEzMDEsNTU2MDcyMzU1LC01OTk2Njc1
-NjksLTE5MzgyMDM5MDEsNDc0NTEwMDQwLC00ODgzOTYwNTQsLT
-c5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC0yMTI4
-OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1NT
-M2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5Mzks
-MTUzODQwNDE0OV19
+eyJoaXN0b3J5IjpbMzUxODU4OTY4LDEyOTMwMTYwNTMsLTE5Mz
+g0NTk1MjksMTc5NTYyNTQ5NSwtOTY1MzgxMzAxLDU1NjA3MjM1
+NSwtNTk5NjY3NTY5LC0xOTM4MjAzOTAxLDQ3NDUxMDA0MCwtND
+g4Mzk2MDU0LC03OTE2MTI3NDksLTE0Mjg0NTEzNDEsMjA2ODk2
+MDIxNSwtMjEyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0Mzc4OT
+MsLTE5NDQ1NTUzNjksMzIwNDkzNTM5LC0xNjExMTM5MDMzLC0y
+MDE4MzgwOTM5XX0=
 -->
