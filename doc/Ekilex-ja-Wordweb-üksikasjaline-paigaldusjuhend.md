@@ -565,7 +565,7 @@ sed -i -e 's/password=3kil3x/password=ekilexDbPass/g' /apps/source/ekilex/wordwe
 sed -i -e 's/host=localhost/host=ekilex-IP/g' /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 sudo -u postgres psql -U wordweb -d wordweb -a -f /apps/source/ekilex/wordweb-app/fileresources/sql/create_mviews.sql  
 ```
-#### Ehitamine
+### Ehitamine
 
 Kogu tarkvaraprojekti ehitamine:  
 /ekilex>mvn clean install -D skipTests
@@ -573,7 +573,7 @@ Kogu tarkvaraprojekti ehitamine:
 Sõnaveebi rakenduse ehitamine:  
 /ekilex/wordweb-app>mvn clean install -D skipTests
 
-#### Käivitamine
+### Käivitamine
 
 Maven pistaku vahendusel:  
 /ekilex/wordweb-app>mvn spring-boot:run -D spring-boot.run.profiles=prod
@@ -725,11 +725,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzg0NTk1MjksMTc5NTYyNTQ5NSwtOT
-Y1MzgxMzAxLDU1NjA3MjM1NSwtNTk5NjY3NTY5LC0xOTM4MjAz
-OTAxLDQ3NDUxMDA0MCwtNDg4Mzk2MDU0LC03OTE2MTI3NDksLT
-E0Mjg0NTEzNDEsMjA2ODk2MDIxNSwtMjEyODk5MzA3MCwxNzQ4
-NTcxNjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIwNDkzNT
-M5LC0xNjExMTM5MDMzLC0yMDE4MzgwOTM5LDE1Mzg0MDQxNDks
-LTExMjY5MTMxOV19
+eyJoaXN0b3J5IjpbMTI5MzAxNjA1MywtMTkzODQ1OTUyOSwxNz
+k1NjI1NDk1LC05NjUzODEzMDEsNTU2MDcyMzU1LC01OTk2Njc1
+NjksLTE5MzgyMDM5MDEsNDc0NTEwMDQwLC00ODgzOTYwNTQsLT
+c5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC0yMTI4
+OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0NDU1NT
+M2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIwMTgzODA5Mzks
+MTUzODQwNDE0OV19
 -->
