@@ -715,7 +715,17 @@ systemctl start wordweb
 
 ------
 Kui ei hakka tööle (v 1.1.0)... 
-
+... kontrolli, et /apps/source/ekilex/wordweb-app/pom.xml sisaldaks
+```
+<plugin>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-maven-plugin</artifactId>
+	<configuration>
+		<executable>true</executable>
+	</configuration>
+</plugin>
+```
+... ja ehita uuesti. V 1.1.0 ei sisaldanud seadet "fully executable jar". https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html
 
 
 
@@ -773,11 +783,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcyODE4MTgsMTMyMzI5NTYwNSwxND
-Y1OTQxNiwxMjkzMDE2MDUzLC0xOTM4NDU5NTI5LDE3OTU2MjU0
-OTUsLTk2NTM4MTMwMSw1NTYwNzIzNTUsLTU5OTY2NzU2OSwtMT
-kzODIwMzkwMSw0NzQ1MTAwNDAsLTQ4ODM5NjA1NCwtNzkxNjEy
-NzQ5LC0xNDI4NDUxMzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNz
-AsMTc0ODU3MTY1NywxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMy
-MDQ5MzUzOV19
+eyJoaXN0b3J5IjpbMTc1MzA2MzQ5NCwxMzIzMjk1NjA1LDE0Nj
+U5NDE2LDEyOTMwMTYwNTMsLTE5Mzg0NTk1MjksMTc5NTYyNTQ5
+NSwtOTY1MzgxMzAxLDU1NjA3MjM1NSwtNTk5NjY3NTY5LC0xOT
+M4MjAzOTAxLDQ3NDUxMDA0MCwtNDg4Mzk2MDU0LC03OTE2MTI3
+NDksLTE0Mjg0NTEzNDEsMjA2ODk2MDIxNSwtMjEyODk5MzA3MC
+wxNzQ4NTcxNjU3LDEwOTA0Mzc4OTMsLTE5NDQ1NTUzNjksMzIw
+NDkzNTM5XX0=
 -->
