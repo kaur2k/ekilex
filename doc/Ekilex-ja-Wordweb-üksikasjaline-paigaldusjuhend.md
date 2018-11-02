@@ -668,7 +668,52 @@ Sep 17 02:02:16 ekilex-test.tb.eki.ee systemd[1]: ekilex.service failed.
 
 
 
+##### Rakendus Ekilex Ekilexi masinas
 
+Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!  
+Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
+```
+mkdir /apps/deploy
+mkdir /apps/deploy/ekilex
+
+cp /apps/source/ekilex/ekilex-app/target/ekilex-app.jar /apps/deploy/ekilex  
+chmod 755 /apps/deploy/ekilex/ekilex-app.jar
+```
+Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.  
+
+nano /apps/deploy/ekilex/ekilex-app.conf
+```
+JAVA_OPTS=-Xmx4096M
+RUN_ARGS=--spring.profiles.active=prod
+```
+
+sudo bash  
+nano /etc/systemd/system/ekilex.service
+```
+[Unit]
+Description=EKILEX application
+After=syslog.target
+[Service]
+User=kasutaja
+
+ExecStart=/apps/deploy/ekilex/ekilex-app.jar
+WorkingDirectory=/apps/deploy/ekilex
+Environment="JAVA_HOME=/opt/jdk1.8.0_171"
+SuccessExitStatus=143
+[Install]
+WantedBy=multi-user.target
+```
+
+
+
+systemctl enable ekilex  
+Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.  
+
+systemctl start ekilex  
+//systemctl restart ekilex  
+//systemctl stop ekilex  
+
+------
 
 
 
@@ -728,11 +773,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTk0MTYsMTI5MzAxNjA1MywtMTkzOD
-Q1OTUyOSwxNzk1NjI1NDk1LC05NjUzODEzMDEsNTU2MDcyMzU1
-LC01OTk2Njc1NjksLTE5MzgyMDM5MDEsNDc0NTEwMDQwLC00OD
-gzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYw
-MjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5My
-wtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2MTExMzkwMzMsLTIw
-MTgzODA5MzldfQ==
+eyJoaXN0b3J5IjpbLTIxMzg3MTQ5NjIsMTQ2NTk0MTYsMTI5Mz
+AxNjA1MywtMTkzODQ1OTUyOSwxNzk1NjI1NDk1LC05NjUzODEz
+MDEsNTU2MDcyMzU1LC01OTk2Njc1NjksLTE5MzgyMDM5MDEsND
+c0NTEwMDQwLC00ODgzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1
+MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NT
+csMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2
+MTExMzkwMzNdfQ==
 -->
