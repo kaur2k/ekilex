@@ -668,15 +668,15 @@ Sep 17 02:02:16 ekilex-test.tb.eki.ee systemd[1]: ekilex.service failed.
 
 
 
-##### Rakendus Ekilex Ekilexi masinas
+##### Rakendus Wordweb Sonaveebi masinas
 
 Loo sobiv Linux kasutaja, kellena rakendust hakatakse käivitama. See ei tohiks olla root kasutaja!  
 Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
 ```
 mkdir /apps/deploy
-mkdir /apps/deploy/ekilex
+mkdir /apps/deploy/wordweb
 
-cp /apps/source/ekilex/ekilex-app/target/ekilex-app.jar /apps/deploy/ekilex  
+cp /apps/source/ekilex/wordweb-app/target/wordweb-app.jar /apps/deploy/ekilex  
 chmod 755 /apps/deploy/ekilex/ekilex-app.jar
 ```
 Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.  
@@ -773,11 +773,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg3MTQ5NjIsMTQ2NTk0MTYsMTI5Mz
-AxNjA1MywtMTkzODQ1OTUyOSwxNzk1NjI1NDk1LC05NjUzODEz
-MDEsNTU2MDcyMzU1LC01OTk2Njc1NjksLTE5MzgyMDM5MDEsND
-c0NTEwMDQwLC00ODgzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1
-MTM0MSwyMDY4OTYwMjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NT
-csMTA5MDQzNzg5MywtMTk0NDU1NTM2OSwzMjA0OTM1MzksLTE2
-MTExMzkwMzNdfQ==
+eyJoaXN0b3J5IjpbMTkxMTA4ODEyMywxNDY1OTQxNiwxMjkzMD
+E2MDUzLC0xOTM4NDU5NTI5LDE3OTU2MjU0OTUsLTk2NTM4MTMw
+MSw1NTYwNzIzNTUsLTU5OTY2NzU2OSwtMTkzODIwMzkwMSw0Nz
+Q1MTAwNDAsLTQ4ODM5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUx
+MzQxLDIwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1Ny
+wxMDkwNDM3ODkzLC0xOTQ0NTU1MzY5LDMyMDQ5MzUzOSwtMTYx
+MTEzOTAzM119
 -->
