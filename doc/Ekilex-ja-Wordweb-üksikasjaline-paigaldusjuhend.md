@@ -676,28 +676,28 @@ Käesolevas juhendis on selleks kasutajaks "**kasutaja**".
 mkdir /apps/deploy
 mkdir /apps/deploy/wordweb
 
-cp /apps/source/ekilex/wordweb-app/target/wordweb-app.jar /apps/deploy/ekilex  
-chmod 755 /apps/deploy/ekilex/ekilex-app.jar
+cp /apps/source/ekilex/wordweb-app/target/wordweb-app.jar /apps/deploy/wordweb
+chmod 755 /apps/deploy/wordweb/wordweb-app.jar
 ```
 Jälgi, et .jar fail (ja kogu /apps kataloogipuu) oleks ligipääsetav "kasutaja"-le.  
 
-nano /apps/deploy/ekilex/ekilex-app.conf
+nano /apps/deploy/wordweb/wordweb-app.conf
 ```
 JAVA_OPTS=-Xmx4096M
 RUN_ARGS=--spring.profiles.active=prod
 ```
 
 sudo bash  
-nano /etc/systemd/system/ekilex.service
+nano /etc/systemd/system/wordweb.service
 ```
 [Unit]
-Description=EKILEX application
+Description=WordWeb application
 After=syslog.target
 [Service]
 User=kasutaja
 
-ExecStart=/apps/deploy/ekilex/ekilex-app.jar
-WorkingDirectory=/apps/deploy/ekilex
+ExecStart=/apps/deploy/wordweb/wordweb-app.jar
+WorkingDirectory=/apps/deploy/wordweb
 Environment="JAVA_HOME=/opt/jdk1.8.0_171"
 SuccessExitStatus=143
 [Install]
@@ -706,12 +706,12 @@ WantedBy=multi-user.target
 
 
 
-systemctl enable ekilex  
-Created symlink from /etc/systemd/system/multi-user.target.wants/ekilex.service to /etc/systemd/system/ekilex.service.  
+systemctl enable wordweb
+Created symlink from /etc/systemd/system/multi-user.target.wants/wordweb.service to /etc/systemd/system/wordweb.service.  
 
-systemctl start ekilex  
-//systemctl restart ekilex  
-//systemctl stop ekilex  
+systemctl start wordweb
+//systemctl restart wordweb
+//systemctl stop wordweb
 
 ------
 
@@ -773,7 +773,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTA4ODEyMywxNDY1OTQxNiwxMjkzMD
+eyJoaXN0b3J5IjpbMTMyMzI5NTYwNSwxNDY1OTQxNiwxMjkzMD
 E2MDUzLC0xOTM4NDU5NTI5LDE3OTU2MjU0OTUsLTk2NTM4MTMw
 MSw1NTYwNzIzNTUsLTU5OTY2NzU2OSwtMTkzODIwMzkwMSw0Nz
 Q1MTAwNDAsLTQ4ODM5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUx
