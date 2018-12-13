@@ -353,11 +353,13 @@ Logimise määrangud asuvad:
 
 Vajalike andmefailide paigaldamine (variandid):  
 
-a) Kopeeri ekitest.tripledev.ee serverilt:  
+a) Kopeeri ftp-
+
+b) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\* 
 /var/apps/data/\* > /apps/data/dicts/\* 
 
-b) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
+c) Küsi sõnakogude omanikelt pakitud failid ja paki lahti (asenda versiooni nr failinimes sobivaga):  
 ```
 mkdir /apps/data/dicts  
 tar -xzvf ekilex-dicts-1.1.0.tar.gz /apps/data/dicts  
@@ -782,7 +784,7 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE3ODIxODUsMTc1MzA2MzQ5NCwxMz
+eyJoaXN0b3J5IjpbLTE4NjUzNTIyMDcsMTc1MzA2MzQ5NCwxMz
 IzMjk1NjA1LDE0NjU5NDE2LDEyOTMwMTYwNTMsLTE5Mzg0NTk1
 MjksMTc5NTYyNTQ5NSwtOTY1MzgxMzAxLDU1NjA3MjM1NSwtNT
 k5NjY3NTY5LC0xOTM4MjAzOTAxLDQ3NDUxMDA0MCwtNDg4Mzk2
