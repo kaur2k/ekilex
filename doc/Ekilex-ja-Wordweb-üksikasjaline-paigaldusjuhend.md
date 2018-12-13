@@ -353,7 +353,7 @@ Logimise määrangud asuvad:
 
 Vajalike andmefailide paigaldamine (variandid):  
 
-a) Kopeeri ftp-
+a) Kopeeri ftp-serverilt:
 
 b) Kopeeri ekitest.tripledev.ee serverilt:  
 /var/apps/file_storage/\* > /apps/data/files/\* 
@@ -784,11 +784,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjUzNTIyMDcsMTc1MzA2MzQ5NCwxMz
-IzMjk1NjA1LDE0NjU5NDE2LDEyOTMwMTYwNTMsLTE5Mzg0NTk1
-MjksMTc5NTYyNTQ5NSwtOTY1MzgxMzAxLDU1NjA3MjM1NSwtNT
-k5NjY3NTY5LC0xOTM4MjAzOTAxLDQ3NDUxMDA0MCwtNDg4Mzk2
-MDU0LC03OTE2MTI3NDksLTE0Mjg0NTEzNDEsMjA2ODk2MDIxNS
-wtMjEyODk5MzA3MCwxNzQ4NTcxNjU3LDEwOTA0Mzc4OTMsLTE5
-NDQ1NTUzNjldfQ==
+eyJoaXN0b3J5IjpbMTE5MDAxMzU3MywxNzUzMDYzNDk0LDEzMj
+MyOTU2MDUsMTQ2NTk0MTYsMTI5MzAxNjA1MywtMTkzODQ1OTUy
+OSwxNzk1NjI1NDk1LC05NjUzODEzMDEsNTU2MDcyMzU1LC01OT
+k2Njc1NjksLTE5MzgyMDM5MDEsNDc0NTEwMDQwLC00ODgzOTYw
+NTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MSwyMDY4OTYwMjE1LC
+0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5MDQzNzg5MywtMTk0
+NDU1NTM2OV19
 -->
