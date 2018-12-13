@@ -373,8 +373,10 @@ chown -R ekilex:ekilex /apps/data/files
 ```
 
 #### Ehitamine  
-Esimeseks ehita
+Esimeseks ehita Eki apps root project:
+/ekilex>mvn clean install -D skipTests
 
+Vajadusel laaduri ehitamine:
 /ekilex/ekilex-etl>mvn clean install -D skipTests -P prodsrvall
 
 #### Käivitamine  
@@ -786,11 +788,11 @@ server {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTEwMjc3OSwxMTkwMDEzNTczLDE3NT
-MwNjM0OTQsMTMyMzI5NTYwNSwxNDY1OTQxNiwxMjkzMDE2MDUz
-LC0xOTM4NDU5NTI5LDE3OTU2MjU0OTUsLTk2NTM4MTMwMSw1NT
-YwNzIzNTUsLTU5OTY2NzU2OSwtMTkzODIwMzkwMSw0NzQ1MTAw
-NDAsLTQ4ODM5NjA1NCwtNzkxNjEyNzQ5LC0xNDI4NDUxMzQxLD
-IwNjg5NjAyMTUsLTIxMjg5OTMwNzAsMTc0ODU3MTY1NywxMDkw
-NDM3ODkzXX0=
+eyJoaXN0b3J5IjpbLTE2NDYxMjA4NDUsMTE5MDAxMzU3MywxNz
+UzMDYzNDk0LDEzMjMyOTU2MDUsMTQ2NTk0MTYsMTI5MzAxNjA1
+MywtMTkzODQ1OTUyOSwxNzk1NjI1NDk1LC05NjUzODEzMDEsNT
+U2MDcyMzU1LC01OTk2Njc1NjksLTE5MzgyMDM5MDEsNDc0NTEw
+MDQwLC00ODgzOTYwNTQsLTc5MTYxMjc0OSwtMTQyODQ1MTM0MS
+wyMDY4OTYwMjE1LC0yMTI4OTkzMDcwLDE3NDg1NzE2NTcsMTA5
+MDQzNzg5M119
 -->
