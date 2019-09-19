@@ -1,11 +1,12 @@
 # Ekilexi kasutusjuhend
 
 ## Sissejuhatus
-[Ekilex](https://ekilex.eki.ee/) on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem.
+Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil (https://ekilex.eki.ee/).
 
 ### Kasutajaks registreerumine
 
 ### Avaleht (/home)
+Pärast sisselogimist satub kasutaja avalehele.
 
 ### Uue terminibaasi loomine
 
