@@ -10,12 +10,25 @@ Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avale
 Pärast sisselogimist satub kasutaja töölauale.
 
 ### Uue sõnakogu loomine
-Ava töölaual link "Sõnakogude haldus". Vajuta üleval paremal nuppu "Lisa uus". Avaneb sõnakogu loomise vorm.
+Ava töölaual link "Sõnakogude haldus". Avaneb leht, millel on sõnakogude nimistu. Vajuta üleval paremal nuppu "Lisa uus". Avaneb uue sõnakogu loomise vorm.
 - Sõnakogu kood: Võimalikult lühike (3-10 märki) tähekombinatsioon, millest saab loodava sõnakogu identifikaator (lühitähis)
 - Nimi: Sõnakogu nimi
 - Tüüp: Kui lood terminibaasi vali "terminibaas", muul juhul "sõnakogu"
+- Kirjeldus: Sõnakogu lühikirjeldus
+- Valdkonna klassifikaatori päritolu: Vali andmekogu, millest valdkonnad pärinevad. See võib olla mõni olemasolev sõnakogu või iseseisev valdkonna klassifikaator (nt lenoch, EKI üld)
+- Valdkonnad: Siin on loetelu eelnevalt valitud klassifikaatori kõikidest valdkondadest. Vali loetelust valdkonnad, mida soovid kasutada. Võib valida ükshaaval või vajutada "Vali kõik".
+- Keeled: Vali keeled mida soovid kasutada oma sõnakogus
+- Protsessiolekud: (aka haldusolekud). Vali protsessi olekud, mida soovid kasutada oma sõnakogus
+- Nähtav: Ekilexis on sõnakogu infot võimalik otsinguga leida
+- Avalik: Sõnakogu on avalikustatud ja nähtav lõppkasutajale terminiveebis või sõnaveebis
+Kui vorm on täidetud, vajuta "Salvesta"
 
-### Töö terminibaasiga 
+Sõnakogu on nüüd loodud ja peaks ilmuma sõnakogude nimistusse.
+
+### Töö sõnakoguga
+
+#### Uue termini loomine Terminoloogi vaates
+
 
 [Get started!](test.md)
 
