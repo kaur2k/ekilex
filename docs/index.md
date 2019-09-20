@@ -38,6 +38,8 @@ Sõnakogu on nüüd loodud ja peaks ilmuma sõnakogude nimistusse.
   - vali rippmenüüst sõnavorm
   - vajuta "Lisa"
 - Kui uus termin ei esine üheski olemasolevas sõnakogus, siis luuakse termin, mõiste ja kuvatakse loodud termin otsingus.
+- Kui uus termin juba esineb mõnes olemasolevas sõnakogus, siis pakutakse võimalust ühendada see mõne olemasoleva mõistega. Kui sa ei soovi ühendada, vali "Lisa uus homonüüm".
+
 
 [Get started!](test.md)
 
