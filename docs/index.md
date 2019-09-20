@@ -27,8 +27,17 @@ Sõnakogu on nüüd loodud ja peaks ilmuma sõnakogude nimistusse.
 
 ### Töö sõnakoguga
 
-#### Uue termini loomine Terminoloogi vaates
-
+#### Uue termini (ja mõiste) loomine
+- Mine töölauale, klikkides vasakul ülal Ekilexi logol
+- Veendu, et valitud on soovitud sõnakogu muutja roll. 
+- Ava töölaual link "Terminoloogide otsing"
+- Vajuta navigeerimisribal "Uus termin ja mõiste". Avaneb uue keelendi sisestusvorm.
+  - sisesta keelend
+  - selle all on kuvatud sõnakogu nimi, millesse termin lisatakse
+  - vali rippmenüüst keel
+  - vali rippmenüüst sõnavorm
+  - vajuta "Lisa"
+- Kui uus termin ei esine üheski olemasolevas sõnakogus, siis luuakse termin, mõiste ja kuvatakse loodud termin otsingus.
 
 [Get started!](test.md)
 
