@@ -1,7 +1,7 @@
 # Ekilexi kasutusjuhend
 
 ## Sissejuhatus
-Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil https://ekilex.eki.ee/ ja on kõigile, kes soovivad oma terminibaasi koostada, tasuta kättesaadav.
+Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil [https://ekilex.eki.ee/] ja on kõigile, kes soovivad oma terminibaasi koostada, tasuta kättesaadav.
 
 ### Kasutajaks registreerumine
 Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avalehele ja vajuta nuppu "Loo kasutaja".
@@ -38,7 +38,7 @@ Sõnakogu on nüüd loodud ja peaks ilmuma sõnakogude nimistusse.
   - vali rippmenüüst sõnavorm
   - vajuta "Lisa"
 - Kui uus termin ei esine üheski olemasolevas sõnakogus, siis luuakse termin, mõiste ja kuvatakse loodud termin otsingus.
-- Kui uus termin juba esineb mõnes olemasolevas sõnakogus, siis pakutakse võimalust ühendada see mõne olemasoleva mõistega. Kui sa ei soovi ühendada, vali "Lisa uus homonüüm".
+- Kui uus termin juba esineb mõnes olemasolevas sõnakogus, siis pakutakse võimalust ühendada see mõne olemasoleva mõistega. Kui sa ei soovi ühendada, vali "Lisa uus homonüüm". Luuakse uus termin ja mõiste ning kuvatakse loodud termin otsingus.
 
 
 [Get started!](test.md)
