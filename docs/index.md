@@ -32,13 +32,13 @@ Sõnakogu on nüüd loodud ja peaks ilmuma sõnakogude nimistusse.
 - Veendu, et valitud on soovitud sõnakogu muutja roll. 
 - Ava töölaual link "Terminoloogide otsing"
 - Vajuta navigeerimisribal "Uus termin ja mõiste". Avaneb uue keelendi sisestusvorm.
-  - sisesta keelend
+  - sisesta keelend (ehk termin)
   - selle all on kuvatud sõnakogu nimi, millesse termin lisatakse
   - vali rippmenüüst keel
   - vali rippmenüüst sõnavorm
   - vajuta "Lisa"
-- Kui uus termin ei esine üheski olemasolevas sõnakogus, siis luuakse termin, mõiste ja kuvatakse loodud termin otsingus.
-- Kui uus termin juba esineb mõnes olemasolevas sõnakogus, siis pakutakse võimalust ühendada see mõne olemasoleva mõistega. Kui sa ei soovi ühendada, vali "Lisa uus homonüüm". Luuakse uus termin ja mõiste ning kuvatakse loodud termin otsingus.
+- Kui sisestatud termin ei esine üheski olemasolevas sõnakogus, siis luuakse uus termin ja mõiste ning kuvatakse loodud termin otsingus.
+- Kui sisestatud termin juba esineb Ekilexis, siis pakutakse võimalust valida, kas soovid kasutada olemasolevat terminit (mille külge luuakse uus mõiste) või soovid luua uue samakujulise termini ehk homonüümi (koos uue mõistega). Viimasel juhul vajuta "Lisa uus homonüüm", misjärel kuvatakse otsingu tulemused, mille hulgas on ka äsja loodud termin. 
 
 
 [Get started!](test.md)
