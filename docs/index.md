@@ -1,12 +1,12 @@
 # Ekilexi kasutusjuhend
 
 ## Sissejuhatus
-Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil [https://ekilex.eki.ee/](https://ekilex.eki.ee/) ja on kõigile, kes soovivad oma terminibaasi koostada, tasuta kättesaadav.
+Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil [https://ekilex.eki.ee/](https://ekilex.eki.ee/) ja on kõigile, kes soovivad oma terminibaasi koostada, tasuta kasutatav.
 
 ### Kasutajaks registreerumine
 Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avalehele ja vajuta nuppu "Loo kasutaja".
 
-### Töölaud (/home)
+### Töölaud
 Pärast sisselogimist satub kasutaja töölauale.
 
 ### Uue sõnakogu loomine
@@ -27,7 +27,7 @@ Sõnakogu on nüüd loodud ja ilmub sõnakogude nimistusse.
 
 ### Töö sõnakoguga
 
-#### Uue termini (ja mõiste) loomine
+#### Uue termini ja mõiste loomine
 - Mine töölauale, klikkides vasakul ülal Ekilexi logol
 - Veendu, et valitud on soovitud sõnakogu muutja roll. 
 - Ava töölaual link "Terminoloogide otsing"
