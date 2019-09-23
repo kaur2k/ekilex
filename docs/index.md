@@ -10,7 +10,7 @@ Sisselogimiseks sisesta oma e-posti aadress ja eelnevalt valitud parool ning vaj
 Kui õnnestus sisse logida, avaneb õiguste taotlemise leht, millel on teade: "See on EKI sõnastikesüsteem Ekilex. Siin saad esitada taotluse Ekilexi kasutamiseks vaatamisõigusega. Kui vaja, vali vastavad sõnakogud, millele soovid muutmisõigust."
 Vaatamisõiguse taotlemiseks vajuta lihtsalt "Saada taotlus". Muutmisõiguste taotlemiseks vajuta "Soovin sõnakogude muutmisõigust" ja vali soovitud sõnakogu(d). Vajadusel vajuta "Soovin põhjendada taotlust" ja kirjuta lahtrisse põhjendus. Seejärel vajuta "Saada taotlus".
 
-Nüüd tuleb oodata kuni Ekilexi administraator annab sulle küsitud õigused. Selle kohta tuleb teade sinu e-posti. Pärast seda saad hakata Ekilexi kasutama.
+Nüüd tuleb oodata kuni Ekilexi administraator annab sulle küsitud õigused. Selle kohta tuleb teade sinu e-postile. Pärast seda saad hakata Ekilexi kasutama.
 
 ### Töölaud
 Pärast sisselogimist satub kasutaja töölauale. Töölaual on järgnevad valikud:
@@ -23,10 +23,10 @@ Pärast sisselogimist satub kasutaja töölauale. Töölaual on järgnevad valik
 
 Terminitööks soovitame kasutada Terminoloogide otsingut ehk terminoloogi vaadet.
 
-### Terminite otsing terminoloogi vaates
+### Terminite otsing
 
-Terminoloogi vaatesse minekuks vajuta töölaual "Terminoloogide otsing".
-Avaneb terminoloogi vaade. Selle kohal on nupp "Valitud sõnakogusid: 0". 
+Vajuta töölaual "Terminoloogide otsing".
+Avaneb terminoloogi vaade. Vajuta nuppu "Valitud sõnakogusid: 0". 
 
 ### Uue sõnakogu loomine
 Ava töölaual link "Sõnakogude haldus". Avaneb leht, millel on sõnakogude nimistu. Vajuta üleval paremal nuppu "Lisa uus". Avaneb uue sõnakogu loomise vorm.
