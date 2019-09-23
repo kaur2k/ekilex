@@ -26,7 +26,6 @@ Ava töölaual link "Sõnakogude haldus". Avaneb leht, millel on sõnakogude nim
 - Avalik: Sõnakogu on avalikustatud ja nähtav lõppkasutajale terminiveebis või sõnaveebis
 
 Kui vorm on täidetud, vajuta "Salvesta"
-
 Sõnakogu on nüüd loodud ja ilmub sõnakogude nimistusse.
 
 ### Töö sõnakoguga
