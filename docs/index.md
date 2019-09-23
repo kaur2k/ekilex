@@ -8,6 +8,7 @@ Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avale
 Klikkides lingile avaneb Ekilexi sisselogimisvorm koos teatega "Kasutaja on aktiveeritud, head kasutamist."
 Sisselogimiseks sisesta oma e-posti aadress ja eelnevalt valitud parool ning vajuta "Sisene".
 Kui õnnestus sisse logida, avaneb õiguste taotlemise leht, millel on teade: "See on EKI sõnastikesüsteem Ekilex. Siin saad esitada taotluse Ekilexi kasutamiseks vaatamisõigusega. Kui vaja, vali vastavad sõnakogud, millele soovid muutmisõigust."
+Vaatamisõiguse taotlemiseks vajuta lihtsalt "Saada taotlus". Muutmisõiguste taotlemiseks vajuta "Soovin sõnakogude muutmisõigust" ja vali soovitud sõnakogu(d). Seejärel vajuta "Saada taotlus".
 
 ### Töölaud
 Pärast sisselogimist satub kasutaja töölauale.
