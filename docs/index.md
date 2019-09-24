@@ -4,13 +4,18 @@
 Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil [https://ekilex.eki.ee/](https://ekilex.eki.ee/) ja on kõigile, kes soovivad oma terminibaasi koostada, tasuta kasutatav.
 
 ### Kasutajaks registreerumine ja õiguste taotlemine
-Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avalehele ja vajuta nuppu "Loo kasutaja". Avaneb kasutajaks registreerumise vorm. Pead sisestama oma nime, e-posti ja mõtlema välja parooli, mille sisestad kaks korda. Vajuta "Registreeru". Mõne sekundi jooksul saadetakse sinu e-posti aadressile kinnituskiri. Kui sa ei leia oma postkastist kirja, vaata ka rämpsposti kataloogi või kasuta otsingut, otsides teemat "Ekilexi kasutaja registreerimine". Oma konto aktiveerimiseks pead klikkima kinnituskirjas sisalduvale aktiveerimislingile.
-Klikkides lingile avaneb Ekilexi sisselogimisvorm koos teatega "Kasutaja on aktiveeritud, head kasutamist."
-Sisselogimiseks sisesta oma e-posti aadress ja eelnevalt valitud parool ning vajuta "Sisene".
-Kui õnnestus sisse logida, avaneb õiguste taotlemise leht, millel on teade: "See on EKI sõnastikesüsteem Ekilex. Siin saad esitada taotluse Ekilexi kasutamiseks vaatamisõigusega. Kui vaja, vali vastavad sõnakogud, millele soovid muutmisõigust."
-Vaatamisõiguse taotlemiseks vajuta lihtsalt "Saada taotlus". Muutmisõiguste taotlemiseks vajuta "Soovin sõnakogude muutmisõigust" ja vali soovitud sõnakogu(d). Vajadusel vajuta "Soovin põhjendada taotlust" ja kirjuta lahtrisse põhjendus. Seejärel vajuta "Saada taotlus".
-
-Nüüd tuleb oodata kuni Ekilexi administraator annab sulle küsitud õigused. Selle kohta tuleb teade sinu e-postile. Pärast seda saad hakata Ekilexi kasutama.
+- Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avalehele ja vajuta nuppu "Loo kasutaja". 
+- Avaneb kasutajaks registreerumise vorm. Pead sisestama oma nime, e-posti ja mõtlema välja parooli, mille sisestad kaks korda. 
+- Vajuta "Registreeru". 
+- Mõne sekundi jooksul saadetakse sinu e-posti aadressile kinnituskiri. Kui sa ei leia oma postkastist kirja, vaata ka rämpsposti kataloogi või kasuta otsingut, otsides teemat "Ekilexi kasutaja registreerimine". Oma konto aktiveerimiseks pead klikkima kinnituskirjas sisalduvale aktiveerimislingile.
+- Klikkides lingile avaneb Ekilexi sisselogimisvorm koos teatega "Kasutaja on aktiveeritud, head kasutamist."
+- Sisselogimiseks sisesta oma e-posti aadress ja eelnevalt valitud parool ning vajuta "Sisene".
+- Kui õnnestus sisse logida, avaneb õiguste taotlemise leht, millel on teade: "See on EKI sõnastikesüsteem Ekilex. Siin saad esitada taotluse Ekilexi kasutamiseks vaatamisõigusega. Kui vaja, vali vastavad sõnakogud, millele soovid muutmisõigust."
+  - Vaatamisõiguse taotlemiseks vajuta lihtsalt "Saada taotlus". 
+  - Muutmisõiguste taotlemiseks vajuta "Soovin sõnakogude muutmisõigust" ja vali soovitud sõnakogu(d). 
+  - Vajadusel vajuta "Soovin põhjendada taotlust" ja kirjuta lahtrisse põhjendus. 
+  - Seejärel vajuta "Saada taotlus".
+- Nüüd tuleb oodata kuni Ekilexi administraator annab sulle küsitud õigused. Selle kohta tuleb teade sinu e-postile. Pärast seda saad hakata Ekilexi kasutama.
 
 ### Töölaud
 Pärast sisselogimist satub kasutaja töölauale. Töölaual on järgnevad valikud:
@@ -25,8 +30,10 @@ Terminitööks soovitame kasutada Terminoloogide otsingut ehk terminoloogi vaade
 
 ### Terminite otsing
 
-Vajuta töölaual "Terminoloogide otsing".
-Avaneb terminoloogi vaade. Vajuta nuppu "Valitud sõnakogusid: 0". 
+- Vajuta töölaual "Terminoloogide otsing".
+- Avaneb terminoloogi vaade. Vajuta nuppu "Valitud sõnakogusid: 0". Vali linnukestega sõnakogud, millest soovid otsida ning vajuta "Vali".
+- Sisesta otsisõna. Kasutada võib metamärke: ? = 1 suvaline tähemärk; * = 0 või rohkem suvalisi tähemärke
+- Vajuta "Otsi"
 
 ### Uue sõnakogu loomine
 Ava töölaual link "Sõnakogude haldus". Avaneb leht, millel on sõnakogude nimistu. Vajuta üleval paremal nuppu "Lisa uus". Avaneb uue sõnakogu loomise vorm.
