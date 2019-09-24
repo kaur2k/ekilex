@@ -67,5 +67,5 @@ Sõnakogu on nüüd loodud ja ilmub sõnakogude nimistusse.
 - Kui sisestatud termin juba esineb Ekilexis, siis pakutakse võimalust valida, kas soovid kasutada olemasolevat terminit (mille külge luuakse uus mõiste) või soovid luua uue samakujulise termini ehk homonüümi (koos uue mõistega). Viimasel juhul vajuta "Lisa uus homonüüm", misjärel kuvatakse otsingu tulemused, mille hulgas on ka äsja loodud termin. 
 
 
-[Get started!](test.md)
+[Hakka pihta!](https://ekilex.eki.ee/)
 
