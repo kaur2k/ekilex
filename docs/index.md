@@ -19,7 +19,7 @@ Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asu
   - Seejärel vajuta „Saada taotlus“.
 - Nüüd tuleb oodata, kuni Ekilexi administraator annab sulle küsitud õigused. Selle kohta saadetakse e-kiri. Pärast seda saad hakata Ekilexi kasutama.
 
-### Töölaud
+### <a></a>Töölaud
 
 Pärast sisselogimist satub kasutaja töölauale. Töölaual on järgmised valikud.
 
@@ -31,7 +31,7 @@ Pärast sisselogimist satub kasutaja töölauale. Töölaual on järgmised valik
 
 Terminitööks soovitame kasutada terminoloogide otsingut ehk terminoloogi vaadet.
 
-### Terminite otsing
+### <a name=""></a>Terminite otsing
 
 - Vajuta töölaual „Terminoloogide otsing“.
 - Avaneb terminoloogi vaade. Vajuta nuppu „Valitud sõnakogusid: 0“. Vali linnukestega sõnakogud, millest soovid otsida, ja vajuta „Vali“.
@@ -40,7 +40,7 @@ Terminitööks soovitame kasutada terminoloogide otsingut ehk terminoloogi vaade
   - \* = 0 või rohkem suvalisi tähemärke. 
 - Vajuta „Otsi“.
 
-### Uue sõnakogu loomine
+### <a/>Uue sõnakogu loomine
 
 Klõpsa töölaual linki „Sõnakogude haldus“. Avaneb leht, millel on sõnakogude nimekiri. Vajuta üleval paremal nuppu „Lisa uus“. Avaneb uue sõnakogu loomise vorm.
 
@@ -76,7 +76,8 @@ Sõnakogu on nüüd loodud ja ilmub sõnakogude nimistusse.
 
 
 [Hakka pihta!](https://ekilex.eki.ee/)
-[Ankur!](https://kaur2k.github.io/ekilex/#reg)
+
+[reg](https://kaur2k.github.io/ekilex/#kasutajaks-registreerumine-ja-õiguste-taotlemine)
 
 Küsimuste korral kirjuta [kasutajatugi@ekilex.ee](mailto:kasutajatugi@ekilex.ee)!
 
