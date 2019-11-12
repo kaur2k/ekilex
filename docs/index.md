@@ -4,7 +4,7 @@
 
 Ekilex on Eesti Keele Instituudi sõnastiku- ja terminibaasisüsteem. Ekilex asub aadressil [https://ekilex.eki.ee/](https://ekilex.eki.ee/) ja on kõigile, kes soovivad oma terminibaasi koostada, tasuta kasutatav.
 
-### Kasutajaks registreerumine ja õiguste taotlemine
+### <a name="reg"></a>Kasutajaks registreerumine ja õiguste taotlemine
 
 - Ekilexi kasutamiseks tuleb luua endale kasutajakonto. Selleks mine Ekilexi avalehele ja vajuta nuppu „Loo kasutaja“. 
 - Avaneb kasutajaks registreerumise vorm. Pead sisestama oma nime, e-posti aadressi ja valima parooli, mille sisestad kaks korda. 
@@ -76,6 +76,7 @@ Sõnakogu on nüüd loodud ja ilmub sõnakogude nimistusse.
 
 
 [Hakka pihta!](https://ekilex.eki.ee/)
+[Ankur!](https://kaur2k.github.io/ekilex/#reg)
 
 Küsimuste korral kirjuta [kasutajatugi@ekilex.ee](mailto:kasutajatugi@ekilex.ee)!
 
